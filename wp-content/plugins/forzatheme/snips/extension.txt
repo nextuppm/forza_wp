@@ -1,0 +1,106 @@
+<div class="col-lg-6 bump-bottom-sm">
+	<h5 class="text-center extra-bold bump-bottom-xs">Extending Your Loan</h5>
+	<p class="p16 text-center">For a small fee you can extend the repayment date for your loan up to 30 days.</p>
+	<div id="extension-options" class="bump-bottom-sm">
+		<div class="box white-bg bump-bottom-xs tight">
+			<div class="row">
+				<div class="col-7">
+					Until 23 May <span class="txt-grey p12">(+7 Days)</span>
+				</div>
+				<div class="col-5 text-right">
+					+10 BAM
+				</div>
+			</div>
+		</div>
+
+		<div class="box white-bg bump-bottom-xs tight">
+			<div class="row">
+				<div class="col-7">
+					Until 30 May <span class="txt-grey p12">(+14 Days)</span>
+				</div>
+				<div class="col-5 text-right">
+					+20 BAM
+				</div>
+			</div>
+		</div>
+
+		<div class="box white-bg tight active">
+			<div class="row">
+				<div class="col-7">
+					Until 15 Jun <span class="txt-grey p12">(+30 Days)</span>
+				</div>
+				<div class="col-5 text-right">
+					+40 BAM
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="text-center">
+		<button class="btn btn-green" data-toggle="modal" data-target="#extension-modal">Request Extension</button>
+	</div>
+
+</div><!--End Col 6-->
+
+
+<div class="modal fade" id="extension-modal" tabindex="-1">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<h3 class="semi-bold bump-bottom-xs">Extend Your Loan</h3>
+				<p class="p16">Information here will be about loan extension, how to make the payment etc etc. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<h5 class="semi-bold bump-top-sm bump-bottom-xs">Options</h5>
+				<ul class="p16">
+					<li>Until 22 Apr (+7 Days) +10 BAM</li>
+					<li>Until 29 Apr (+14 Days) +20 BAM</li>
+					<li>Until 15 May (+30 Days) +40 BAM</li>
+				</ul>
+				<h3 class="semi-bold bump-top-sm bump-bottom-xs">How to Activate an Extension</h3>
+				<p class="p16">Instructions here about making online payment etc etc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h5 class="semi-bold bump-top-sm bump-bottom-xs">Bank Details</h3>
+				<table class="table table-striped p16">
+					<tr>
+						<td><strong>User:</strong></td>
+						<td>MKD "Digital finance international" doo Banja Luka</td>
+					</tr>
+					<tr>
+						<td><strong>JIB:</strong></td>
+						<td>4404127510006</td>
+					</tr>
+					<tr>
+						<td><strong>Giro account number:</strong></td>
+						<td>5520001718929885</td>
+					</tr>
+					<tr>
+						<td><strong>Bank:</strong></td>
+						<td>ADDIKO BANK ad Banja Luka</td>
+					</tr>
+					<tr>
+						<td><strong>Ref number:</strong></td>
+						<td>151310</td>
+					</tr>
+					<tr>
+						<td><strong>Amount:</strong></td>
+						<td>10 / 20 / 30 BAM</td>
+					</tr>
+				</table>
+				<p class="p16"><strong>IMPORTANT!</strong> For the correct record of your payment, please enter the correct number of loan agreement in the Reference Number field.</p>
+			</div><!--End Container-->
+		</div><!--End Model Content-->
+	</div><!--End Modal Dialogue-->
+</div><!--End Extension Modal-->
+
+
+
+<script>
+	$(function(){
+
+		$("#extension-options > div").on("click", function(){
+			$("#extension-options > div").removeClass("active");
+			$(this).addClass("active");
+		});			
+
+	});
+</script>

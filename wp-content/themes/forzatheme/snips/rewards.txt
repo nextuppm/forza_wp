@@ -1,0 +1,22 @@
+
+					<div class="details-box">
+						<div class="details-box-header">
+							<h5 class="extra-bold bump-bottom-none bump-top-none"><i class="fas fa-gift fa-fw"></i> Your Rewards</h5>
+						</div>
+						<div class="reward center">
+							<i class="fas fa-mobile-alt fa-2x"></i>
+							<span>2/3</span>
+							<svg>
+								<circle class="grey" cx='68' cy='68' r='58' />
+								<circle class="p66" cx='68' cy='68' r='58' />
+							</svg>
+						</div>
+						<div class="details-box-body p16 text-center">
+							<p>1 loan until your free Smartphone</p>
+							<p class="p16"><s>1. First Loan Free</s><br>
+							<s>2. Two tickets to 3D Cinema</s><br>
+							3. New Leagoo Z3C Smartphone</p>
+							<p class="p16"><a href="#">Learn More</a></p>
+						</div>
+					</div> -->
+					</div><!--End Details Box-->
