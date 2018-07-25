@@ -134,6 +134,28 @@ $url          = home_url( '/' );
 								</div>
 							</div><!--End Col 6-->
 
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="form-group">
+                                        <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
+                                        <input class="form-control" name="password" id="password" placeholder="***********"
+                                               data-validation="required"
+                                               data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
+                                               data-sanitize="trim">
+                                    </div>
+                                </div><!--End Col 6-->
+
+                                <div class="col-xl-6">
+                                    <div class="form-group">
+                                        <label for="last_name"><? echo __( 'Confirm', 'forzatheme' ); ?></label>
+                                        <input class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
+                                               data-validation="required"
+                                               data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
+                                               data-sanitize="trim">
+                                    </div>
+                                </div><!--End Col 6-->
+                            </div><!--End Row-->
+
 						</div><!--End Row-->
 
 						<div class="chk-container bump-bottom-sm">
