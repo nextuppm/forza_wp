@@ -2,7 +2,7 @@
 $contact_phone      = get_field('contact_phone', 'option');
 $string_phone       = preg_replace("/[^0-9]/", '', $contact_phone);
 $contact_whatsapp   = get_field('contact_whatsapp', 'option');
-$string_whatsapp    = preg_replace("/[^0-9]/", '', $string_whatsapp);
+$string_whatsapp    = preg_replace("/[^0-9]/", '', $contact_whatsapp);
 ?>
 	<section id="contact-bar" class="grey-bg pad-top-sm bump-bottom-md">
 		<div class="container">

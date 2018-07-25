@@ -18,28 +18,29 @@
 	function get_client_id($userid) {
 			$client                = new ApiClient();
 			$clientinfo            = $client->getClientRepository()->getById($userid);
-            if($clientinfo->ClientID == NULL) {
-				return '0';
-			} else {
+
+            if($clientinfo == NULL) {
+				return false;
+			}  else {
 				return $clientinfo->ClientID;
 			}
 	}
 
-    function CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone,$user_email) {
+    function CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone,$u_email) {
 
 	$client                 = new ApiClient();
 	$client_id              = $client->getClientRepository()->create(
 		[
-			"Firstname"    => $user_first_name,
-			"Lastname"     => $user_last_name,
+			"Firstname"    => $u_first_name,
+			"Lastname"     => $u_last_name,
 			"RegDocuments" => [
 				[
 					'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['Jmbg'],
-					'DocNumber' => $user_jmbg,
+					'DocNumber' => $u_jmbg,
 				],
 				[
 					'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['IdCard'],
-					'DocNumber' => $user_private_card,
+					'DocNumber' => $u_private_card,
 				]
 			],
 			"Communications" => [
@@ -47,14 +48,14 @@
 					"CommContactPerson" => "",
 					"CommTypeID"   => Constants::CONSTANTS['ClientCommunicationType']['Email'],
 					"CommTypeName" => "Email",
-					"CommValue"    => $user_email,
+					"CommValue"    => $u_email,
 					"Confirmed"    => false,
 				],
 				[
 					"CommContactPerson" => "",
 					"CommTypeID"   => Constants::CONSTANTS['ClientCommunicationType']['Phone'],
 					"CommTypeName" => "Mobile",
-					"CommValue"    => $user_phone,
+					"CommValue"    => $u_phone,
 					"Confirmed"    => false,
 				]
 			]
@@ -65,7 +66,7 @@
 
 
 
- function CreateLoan($client_id, $user_loan_amount, $user_loan_days) {
+ function CreateLoan($client_id, $u_loan_amount, $u_loan_days) {
     $client                   = new ApiClient();
     $loan_id                  = $client->getLoanApplicationRepository()->create(
 		[
@@ -75,11 +76,11 @@
 			"Parameters"      => [
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
-					"LoanApplicationParameterValue" => $user_loan_amount,
+					"LoanApplicationParameterValue" => $u_loan_amount,
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
-					"LoanApplicationParameterValue" => $user_loan_days,
+					"LoanApplicationParameterValue" => $u_loan_days,
 				],
 			]
 		]

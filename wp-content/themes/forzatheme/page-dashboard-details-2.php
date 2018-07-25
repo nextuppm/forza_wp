@@ -7,7 +7,10 @@ get_header();
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Your Details', 'forzatheme' ); ?></h1>
 
 			<div class="row">
-
+				<? $client_id = get_client_id($userid);?>
+				<? if ($client_id == false):?>
+					    клиент НЕ существует или не авторизован
+				<?else:?>
 				<div class="col-lg-4 col-xl-3 bump-bottom-sm">
                    <? require_once(TEMPLATEPATH . '/inc/account-box.php'); ?>
 				</div><!--End Col 3-->
@@ -15,7 +18,7 @@ get_header();
  				<div class="col-lg-8 col-xl-9 order-lg-first bump-bottom-sm">
 					<div class="box grey-bg bump-bottom-sm">
 						<!-- 11d34343-486a-41bf-b653-df902f8d62b7 -->
-<? //echo get_client_id($userid);?>
+						<!-- 00000000-0000-0110-0000-000000000000 -->
 
 						<form>
 							<div class="editable-detail bump-bottom-xs">
@@ -24,8 +27,8 @@ get_header();
 										<label class="bold"><? echo __('Email', 'forzatheme' ); ?></label> <i class="fas fa-edit fa-fw txt-grey fa-xs"></i>
 									</div>
 									<div class="col">
-										<span class="editable-label"><? echo $user_email; ?></span>
-										<input class="form-control white-bg" name="email" id="email" placeholder="example@email.com" type="email" value="<? echo $user_email; ?>"
+										<span class="editable-label"><? echo $u_email; ?></span>
+										<input class="form-control white-bg" name="email" id="email" placeholder="example@email.com" type="email" value="<? echo $u_email; ?>"
 											data-validation="email"
 											data-validation-optional="true"
 											data-sanitize="trim lower">
@@ -38,8 +41,8 @@ get_header();
 										<label class="bold"><? echo __('Phone', 'forzatheme' ); ?></label> <i class="fas fa-edit fa-fw txt-grey fa-xs"></i>
 									</div>
 									<div class="col">
-										<span class="editable-label"><? echo $user_phone; ?></span>
-										<input class="form-control phone-mask white-bg" name="phone" id="phone" placeholder="(061) 123-456" type="tel" value="<? echo $user_phone; ?>"
+										<span class="editable-label"><? echo $u_phone; ?></span>
+										<input class="form-control phone-mask white-bg" name="phone" id="phone" placeholder="(061) 123-456" type="tel" value="<? echo $u_phone; ?>"
 											data-validation="custom"
 											data-validation-regexp="^(\(\d{3}\))\s(\d{3})\-(\d{3})$"
 											data-validation-error-msg="<? echo __('Please enter your telephone number (9 digits)', 'forzatheme' ); ?>"
@@ -79,7 +82,7 @@ get_header();
 								<label class="bold"><? echo __('First Name', 'forzatheme' ); ?></label>
 							</div>
 							<div class="col">
-								<? echo $user_fname; ?>
+								<? echo $u_fname; ?>
 							</div>
 						</div>
 
@@ -88,7 +91,7 @@ get_header();
 								<label class="bold"><? echo __('Last Name', 'forzatheme' ); ?></label>
 							</div>
 							<div class="col">
-								<? echo $user_lname; ?>
+								<? echo $u_lname; ?>
 							</div>
 						</div>
 
@@ -97,7 +100,7 @@ get_header();
 								<label class="bold"><? echo __('JMBG', 'forzatheme' ); ?></label>
 							</div>
 							<div class="col">
-								2005990000551
+								<? echo $u_JMBG; ?>
 							</div>
 						</div>
 
@@ -106,7 +109,7 @@ get_header();
 								<label class="bold"><? echo __('ID Card', 'forzatheme' ); ?></label>
 							</div>
 							<div class="col">
-								ABC123HD
+								<? echo $u_ID_card; ?>
 							</div>
 						</div>
 
@@ -395,8 +398,9 @@ get_header();
 
 				</div><!--End Col 9-->
 
-
+         <? endif;?>
 			</div><!--End Row-->
+		   <!-- /row end-->
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
