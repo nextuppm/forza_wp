@@ -399,6 +399,7 @@ CREATE TABLE `clients` (
   `id` VARCHAR(36) NOT NULL,
   `email` VARCHAR(255) NOT NULL,
   `phone` VARCHAR(32) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
   `client_id` VARCHAR(36) NOT NULL,
   `date_entered` DATETIME NOT NULL,
   PRIMARY KEY (`id`));
