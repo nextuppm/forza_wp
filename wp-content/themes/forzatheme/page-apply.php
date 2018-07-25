@@ -2,17 +2,17 @@
 <? if (isset($_POST['action'])):?>
 <?
 
-$user_loan_amount   = $_POST["loan_amount"];
-$user_loan_days     = $_POST["loan_days"];
-$user_first_name    = $_POST["first_name"];
-$user_last_name     = $_POST["last_name"];
-$user_jmbg          = $_POST["jmbg"];
-$user_private_card  = $_POST["private_card"];
-$user_phone         = $_POST["phone"];
-$user_email         = $_POST["email"];
-$client_id = CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone, $user_email);
+$u_loan_amount   = $_POST["loan_amount"];
+$u_loan_days     = $_POST["loan_days"];
+$u_first_name    = $_POST["first_name"];
+$u_last_name     = $_POST["last_name"];
+$u_jmbg          = $_POST["jmbg"];
+$u_private_card  = $_POST["private_card"];
+$u_phone         = $_POST["phone"];
+$u_email         = $_POST["email"];
+$client_id = CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone, $u_email);
 setcookie("UserID", $client_id, time() + (86400 * 30), "/");
-$loan_id   = CreateLoan($client_id, $user_loan_amount, $user_loan_days);
+$loan_id   = CreateLoan($client_id, $u_loan_amount, $u_loan_days);
 
 ?>
 <!--?

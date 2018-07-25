@@ -1,19 +1,28 @@
 <?
+$url                = home_url( '/' );
 if (isset($_COOKIE['UserID']))   {
-$userid                = $_COOKIE["UserID"];
-$client                = new ApiClient();
-$clientinfo            = $client->getClientRepository()->getById($userid);
-#$user_ID              = $clientinfo->ClientID;
-$user_fname            = $clientinfo->Firstname;
-$user_mname            = $clientinfo->Middlename;
-$user_lname            = $clientinfo->Lastname;
-$user_activeloan       = $clientinfo->ActiveLoan;
-$user_birthdate        = $clientinfo->BirthDate;
-$user_clientstatusID   = $clientinfo->ClientStatusID;
-$user_email            = $clientinfo->Communications[0]->CommValue;
-$user_phone            = $clientinfo->Communications[1]->CommValue;
-
-
+	/* получаем id юзера из куки*/
+     $userid                = $_COOKIE["UserID"];
+    /* проверяем есть ли такой юзер */
+     $client_id = get_client_id($userid);
+    /* если нет такого юзера -  присваиваем "левый id" */
+    if($client_id == false) {
+			$userid = '00000000-0000-0110-0000-000000000000';
+	}  else {
+	 /* если есть - заполняем переменные	*/
+	$client             = new ApiClient();
+    $clientinfo         = $client->getClientRepository()->getById($userid);
+	#$u_ID              = $clientinfo->ClientID;
+	$u_fname            = $clientinfo->Firstname;
+	$u_mname            = $clientinfo->Middlename;
+	$u_lname            = $clientinfo->Lastname;
+	$u_activeloan       = $clientinfo->ActiveLoan;
+	$u_birthdate        = $clientinfo->BirthDate;
+	$u_clientstatusID   = $clientinfo->ClientStatusID;
+	$u_email            = $clientinfo->Communications[0]->CommValue;
+	$u_phone            = $clientinfo->Communications[1]->CommValue;
+	$u_JMBG             = $clientinfo->RegDocuments[0]->DocNumber;
+	$u_ID_card          = $clientinfo->RegDocuments[1]->DocNumber;
 
 	try{
         //echo '<pre>';
@@ -26,5 +35,15 @@ $user_phone            = $clientinfo->Communications[1]->CommValue;
 		echo $ex->getMessage();
 
 	}
+
+
+   }
+
 }
-else {}
+else {
+	$userid = '00000000-0000-0110-0000-000000000000';
+	}
+
+if(isset($_GET['logout'])) {
+setcookie("UserID", $client_id, time() - (86400 * 30), "/");
+}

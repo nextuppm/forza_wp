@@ -5,7 +5,11 @@ get_header();
 
 	<section class="bump-bottom-md">
 		<div class="container">
-			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $user_fname;?> <? echo $user_mname;?> <? echo $user_lname;?> !</h1>
+			<? $client_id = get_client_id($userid);?>
+			<? if ($client_id == false):?>
+					клиент НЕ существует или не авторизован
+			<?else:?>
+			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $u_fname;?> <? echo $u_lname;?> !</h1>
 
 			<div class="row">
 
@@ -76,7 +80,10 @@ get_header();
 
 					</div><!--End Grey Box-->
 				</div><!--End Col 9-->
+
 			</div><!--End Row-->
+
+		<? endif;?>
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
