@@ -14,18 +14,9 @@ get_header();
 
  				<div class="col-lg-8 col-xl-9 order-lg-first bump-bottom-sm">
 					<div class="box grey-bg bump-bottom-sm">
-<pre>
-<?
-print_r(clientinfo($userid));
-?>
-</pre>
-<br/>
-						user_id = <? echo $id;?>
-						<br>
+						<!-- 11d34343-486a-41bf-b653-df902f8d62b7 -->
+<? //echo get_client_id($userid);?>
 
-						user_info: <? print_r($clientinfo);?>
-						<pre>
-						</pre>
 						<form>
 							<div class="editable-detail bump-bottom-xs">
 								<div class="row bump-bottom-xs">

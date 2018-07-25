@@ -15,6 +15,16 @@
 			return $clientinfo;
 	}
 
+	function get_client_id($userid) {
+			$client                = new ApiClient();
+			$clientinfo            = $client->getClientRepository()->getById($userid);
+            if($clientinfo->ClientID == NULL) {
+				return '0';
+			} else {
+				return $clientinfo->ClientID;
+			}
+	}
+
     function CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone,$user_email) {
 
 	$client                 = new ApiClient();

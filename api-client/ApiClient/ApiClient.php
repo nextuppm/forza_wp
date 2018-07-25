@@ -40,7 +40,7 @@
 					'base_uri' => 'http://159.122.88.110:82',
 					'headers' => ['Content-Type' => 'application/json'],
 					'cookies' => true,
-					'timeout' => 30,
+					'timeout' => 10,
 					'verify' => false
 				]
 			);
