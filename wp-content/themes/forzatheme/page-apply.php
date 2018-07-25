@@ -10,9 +10,24 @@ $user_jmbg          = $_POST["jmbg"];
 $user_private_card  = $_POST["private_card"];
 $user_phone         = $_POST["phone"];
 $user_email         = $_POST["email"];
-$client_id = CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone, $user_email);
-setcookie("UserID", $client_id, time() + (86400 * 30), "/");
-$loan_id   = CreateLoan($client_id, $user_loan_amount, $user_loan_days);
+$user_password      = $_POST["password"];
+$user_confirm_password = $_POST["confirm_password"]; //TODO нужна валидация соответствия пролей на фронте!
+
+if($user_password === $user_confirm_password){
+
+	//$client_id = CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone, $user_email);
+	$client_id = "da316b25-72be-47dd-86c5-02114b59b1e7";
+
+    $password_hash = md5($client_id . $user_password);
+
+    var_dump($password_hash);
+
+	/*
+    setcookie("UserID", $client_id, time() + (86400 * 30), "/");
+    $loan_id   = CreateLoan($client_id, $user_loan_amount, $user_loan_days);
+    */
+}
+
 
 ?>
 <!--?
@@ -138,7 +153,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
-                                        <input class="form-control" name="password" id="password" placeholder="***********"
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="***********"
                                                data-validation="required"
                                                data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
@@ -148,7 +163,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="last_name"><? echo __( 'Confirm', 'forzatheme' ); ?></label>
-                                        <input class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
+                                        <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
                                                data-validation="required"
                                                data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
