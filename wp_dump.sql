@@ -392,6 +392,28 @@ INSERT INTO `wp_usermeta` VALUES (1,1,'nickname','admin'),(2,1,'first_name',''),
 UNLOCK TABLES;
 
 --
+-- Table structure for table `clients`
+--
+
+CREATE TABLE `clients` (
+  `id` VARCHAR(36) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `phone` VARCHAR(32) NOT NULL,
+  `client_id` VARCHAR(36) NOT NULL,
+  `date_entered` DATETIME NOT NULL,
+  PRIMARY KEY (`id`));
+
+DELIMITER $$
+
+DROP TRIGGER IF EXISTS clients_BEFORE_INSERT$$
+CREATE DEFINER = CURRENT_USER TRIGGER `clients_BEFORE_INSERT` BEFORE INSERT ON `clients` FOR EACH ROW
+BEGIN
+SET NEW.date_entered = NOW();
+SET NEW.id = UUID();
+END$$
+DELIMITER ;
+
+--
 -- Table structure for table `wp_users`
 --
 
