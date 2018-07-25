@@ -8,24 +8,38 @@ $u_first_name    = $_POST["first_name"];
 $u_last_name     = $_POST["last_name"];
 $u_jmbg          = $_POST["jmbg"];
 $u_private_card  = $_POST["private_card"];
-$u_phone         = $_POST["phone"];
+$u_phone         = str_replace(['(', ')', '-', ' '], ['', '', '', ''], $_POST["phone"]);
 $u_email         = $_POST["email"];
 $user_password      = $_POST["password"];
 $user_confirm_password = $_POST["confirm_password"]; //TODO нужна валидация соответствия пролей на фронте!
 
-if($user_password === $user_confirm_password){
 
-	//$client_id = CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone, $u_email);
-	$client_id = "da316b25-72be-47dd-86c5-02114b59b1e7";
+$existingClients = $client->getClientRepository()->search([
+	'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['Jmbg'],
+	'DocNumber' => $u_jmbg
+]);
 
-    $password_hash = md5($client_id . $user_password);
+if(count($existingClients) > 0){
+	//TODO Клиент уже существует. Заставляем авторизоваться - редирект на авторизацию.
+	die("Клиент с JMBG " . $u_jmbg . " уже существует");
+}
+else{
+	if($user_password === $user_confirm_password){
+		$client_id = CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone, $u_email);
 
-    var_dump($password_hash);
+		$password_hash = md5($client_id . $user_password); //FIXME убедиться, что хеш функция верная
 
-	/*
-    setcookie("UserID", $client_id, time() + (86400 * 30), "/");
-    $loan_id   = CreateLoan($client_id, $u_loan_amount, $u_loan_days);
-    */
+		global $wpdb;
+		$wpdb->query($wpdb->prepare("INSERT INTO clients (email, phone, password, client_id) VALUES (%s, %s, %s, %s)", $u_email, $u_phone, $password_hash, $client_id));
+
+		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
+		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
+
+		echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
+				"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
+				"</form>".
+				"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>"; //FIXME заменить на адекватный редирект с пост параметром
+	}
 }
 
 

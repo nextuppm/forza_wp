@@ -33,7 +33,7 @@ $url          = home_url( '/' );
 					</div><!--End Row-->
 
 					<p> <? echo __( 'Thank you for filling out your application, it is already being processed and we will contact you in 15 minutes with further information.', 'forzatheme' ); ?></p>
-					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> 151310</p>
+					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> <?= isset($_POST['loan_application_number']) ? $_POST['loan_application_number'] : 0 ?></p>
 					<p><? echo __( 'Thank you for choosing Forza!', 'forzatheme' ); ?></p>
 				</div><!--End Col 9-->
 

@@ -66,7 +66,7 @@
 
 
 
- function CreateLoan($client_id, $u_loan_amount, $u_loan_days) {
+ function CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days) {
     $client                   = new ApiClient();
     $loan_id                  = $client->getLoanApplicationRepository()->create(
 		[
