@@ -29,7 +29,11 @@
 
 			$responseData = $this->getApi()->decodeBody($response);
 
-			return $responseData->GetRelatedOffersListResult->ResponseObject;
+            if(isset($responseData->GetRelatedOffersListResult->ResponseObject))
+            {
+                return $responseData->GetRelatedOffersListResult->ResponseObject;
+            }
+			return false;
 		}
 
 		/**

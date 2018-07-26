@@ -2,7 +2,7 @@
 	function my_theme_setup(){
 		load_theme_textdomain('forzatheme', get_template_directory() . '/languages');
 	}
-
+//TODO remove '/forza'
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/vendor/autoload.php' );
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/ApiClient.php' );
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/data/Constants.php' );
@@ -13,6 +13,12 @@
 			$client                = new ApiClient();
 			$clientinfo            = $client->getClientRepository()->getById($userid);
 			return $clientinfo;
+	}
+    
+    function offerinfo($clientId, $url) {
+			$client                = new ApiClient();
+			$offerinfo            = $client->getProductRepository()->getOffers($clientId, $url);
+			return $offerinfo;
 	}
 
     function CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone,$user_email) {

@@ -1,4 +1,7 @@
 <?
+require_once 'wp-content/themes/forzatheme/includes/BulkHelper.php';
+BulkHelper::GetBulkForUser(null,null,null);
+
 $min_mkd      = get_field('min_mkd',      'option');
 $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');
