@@ -2,7 +2,7 @@
 <? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
-
+$url                = home_url( '/' );
 $u_loan_amount   = $_POST["loan_amount"];
 $u_loan_days     = $_POST["loan_days"];
 $u_first_name    = $_POST["first_name"];

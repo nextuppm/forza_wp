@@ -8,7 +8,7 @@ $enabled_languages  = get_option('qtranslate_enabled_languages');
 $curdatenum         = date( "N");
 $rows               = get_field( 'office_hours_modal','option' ); // get all the rows
 $n_row              = $rows[$curdatenum-1];
-
+$url                = home_url( '/' );
 
 ?>
 <!doctype html>

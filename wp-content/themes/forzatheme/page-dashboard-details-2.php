@@ -1,6 +1,6 @@
 <?  /* Template Name: page-dashboard-details-2.php */
 get_header();
-
+$url                = home_url( '/' );
 ?>
 	<section class="bump-bottom-md">
 		<div class="container">

@@ -6,6 +6,7 @@ $contact_whatsapp   = get_field('contact_whatsapp', 'option');
 $string_phone       = preg_replace("/[^0-9]/", '', $contact_phone);
 $string_whatsapp    = preg_replace("/[^0-9]/", '', $contact_whatsapp);
 $contact_email      = get_field('contact_email', 'option');
+$url                = home_url( '/' );
 ?>
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
 	<main class="bump-bottom-md bump-top-md">

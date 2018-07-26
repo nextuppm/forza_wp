@@ -1,6 +1,6 @@
 <?  /* Template Name: page-success.php */
  get_header();
-$client       = new ApiClient();
+
 $min_mkd      = get_field('min_mkd',      'option');
 $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');

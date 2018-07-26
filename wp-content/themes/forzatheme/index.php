@@ -1,6 +1,6 @@
 <?
 get_header();
-$client = new ApiClient();
+$url                = home_url( '/' );
 ?>
 
 		<section id="why-choose-forza" class="bump-bottom-md">

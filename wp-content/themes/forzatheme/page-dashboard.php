@@ -1,6 +1,6 @@
 <?  /* Template Name: page-dashboard.php */
 get_header();
-
+$url                = home_url( '/' );
 	if (isset($_POST['login'])){
 		$login = $_POST['login'];
 		$password = $_POST['password'];
