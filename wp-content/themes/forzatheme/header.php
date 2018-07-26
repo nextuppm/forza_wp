@@ -1,4 +1,4 @@
-<?
+<? session_start();
 $top_logo_id        = get_field('top_logo',      'option');
 $logo_size          = 'medium';
 $logo_url           = wp_get_attachment_image_url( $top_logo_id, $logo_size );

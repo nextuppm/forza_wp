@@ -1,15 +1,51 @@
 <?  /* Template Name: page-dashboard.php */
 get_header();
 
+	if (isset($_POST['login'])){
+		$login = $_POST['login'];
+		$password = $_POST['password'];
+
+		global $wpdb;
+
+		if(strripos($_POST['login'], '@') === false){
+			$client = $wpdb->get_row("SELECT * FROM clients WHERE phone = '{$login}';");
+		}
+		else{
+			$client = $wpdb->get_row("SELECT * FROM clients WHERE email = '{$login}';");
+		}
+
+		if($client == null || $client == false){
+			//Пользователь не найден. Нужно как-то вернуть на авторизацию.
+			die("Неверный email/phone");
+		}
+
+		$password_hash = md5($client->client_id . $password);
+
+		if($password_hash === $client->password){
+			$api = new ApiClient();
+			$crm_client = $api->getClientRepository()->getById($client->client_id);
+
+			if($crm_client == null){
+				//Клиент удален в crm. Предусмотреть действие.
+				die("Клиента не существует в crm");
+			}
+
+			$_SESSION['crm_client'] = $crm_client;
+		}
+		else{
+			//неверный пароль
+            die("Неверный пароль");
+		}
+	}
+
 ?>
 
 	<section class="bump-bottom-md">
 		<div class="container">
-			<? $client_id = get_client_id($userid);?>
-			<? if ($client_id == false):?>
+			<? if ($_SESSION['crm_client'] == null):?>
 					клиент НЕ существует или не авторизован
 			<?else:?>
-			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $u_fname;?> <? echo $u_lname;?> !</h1>
+			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Firstname : '';?> <? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Lastname : '';?> !</h1>
 
 			<div class="row">
 
