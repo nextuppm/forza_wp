@@ -45,5 +45,6 @@ else {
 	}
 
 if(isset($_GET['logout'])) {
-setcookie("UserID", $client_id, time() - (86400 * 30), "/");
+//setcookie("UserID", $client_id, time() - (86400 * 30), "/");
+	$_SESSION['crm_client'] = null;
 }
