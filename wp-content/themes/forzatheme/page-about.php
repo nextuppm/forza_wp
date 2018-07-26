@@ -1,6 +1,6 @@
 <?  /* Template Name: page-about.php */
 get_header();
-$client = new ApiClient();
+$url                = home_url( '/' );
 ?>
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
 	<section class="bump-bottom-md bump-top-md">

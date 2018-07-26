@@ -1,6 +1,5 @@
 <?  /* Template Name: page-login.php */
 get_header();
-$client       = new ApiClient();
 $url          = home_url( '/' );
 ?>
    <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>

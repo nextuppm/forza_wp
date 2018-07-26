@@ -1,5 +1,6 @@
 <?  /* Template Name: page-dashboard-repayments.php */
 get_header();
+$url                = home_url( '/' );
 ?>
 	<section class="bump-bottom-md bump-top-md">
 		<div class="container">
