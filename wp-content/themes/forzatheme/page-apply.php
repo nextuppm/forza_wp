@@ -1,4 +1,5 @@
 <?  /* Template Name: page-apply.php */?>
+<? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
 
@@ -27,7 +28,7 @@ else{
 	if($user_password === $user_confirm_password){
 		$client_id = CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone, $u_email);
 
-		$password_hash = md5($client_id . $user_password); //FIXME убедиться, что хеш функция верная
+		$password_hash = $client->getHash($client_id, $user_password);
 
 		global $wpdb;
 		$wpdb->query($wpdb->prepare("INSERT INTO clients (email, phone, password, client_id) VALUES (%s, %s, %s, %s)", $u_email, $u_phone, $password_hash, $client_id));
@@ -35,10 +36,12 @@ else{
 		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
 		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
 
+
+		//FIXME заменить на адекватный редирект. Можно засунуть в url loanId, а на success странице по нему достать инфу через api.
 		echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
 				"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
 				"</form>".
-				"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>"; //FIXME заменить на адекватный редирект с пост параметром
+				"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
 	}
 }
 
@@ -53,7 +56,6 @@ $loan_id;
 <?else:endif;?>
 <?
 get_header();
-$client       = new ApiClient();
 $min_mkd      = get_field('min_mkd',      'option');
 $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');

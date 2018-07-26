@@ -19,10 +19,11 @@ get_header();
 			die("Неверный email/phone");
 		}
 
-		$password_hash = md5($client->client_id . $password);
+		$api = new ApiClient();
+		$password_hash = $api->getHash($client->client_id, $password);
 
 		if($password_hash === $client->password){
-			$api = new ApiClient();
+
 			$crm_client = $api->getClientRepository()->getById($client->client_id);
 
 			if($crm_client == null){

@@ -40,7 +40,7 @@
 					'base_uri' => 'http://159.122.88.110:82',
 					'headers' => ['Content-Type' => 'application/json'],
 					'cookies' => true,
-					'timeout' => 10,
+					'timeout' => 30,
 					'verify' => false
 				]
 			);
@@ -119,6 +119,16 @@
 
 		public function getApiKey(){
 			return $this->apiKey;
+		}
+
+		/**
+		 * Util method for generate md5 hash with old site format.
+		 * @param $clientId
+		 * @param $password
+		 * @return string
+		 */
+		public function getHash($clientId, $password){
+			return base64_encode(md5($clientId . $password, true));
 		}
 
 	}
