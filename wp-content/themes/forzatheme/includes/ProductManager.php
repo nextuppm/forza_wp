@@ -15,7 +15,8 @@ class ProductManager
 
     public static function GetBulk($productId, $bulkFileId = null)
     {
-        require_once 'wp-content/themes/forzatheme/includes/FileCache.php';
+        $path = fs_get_wp_config_path();
+        require_once $path.'/wp-content/themes/forzatheme/includes/FileCache.php';
         $cache = new FileCache();
         
         if ($cache->fetch($productId))

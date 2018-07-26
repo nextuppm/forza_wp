@@ -20,8 +20,8 @@ class FileCache {
 
     // General function to find the filename for a certain key
     private function getFileName($key) {
-
-        return 'wp-content/uploads/bulkfiles/' . $key;
+        $path = fs_get_wp_config_path();
+        return $path.'/wp-content/uploads/bulkfiles/' . $key;
 
     }
 

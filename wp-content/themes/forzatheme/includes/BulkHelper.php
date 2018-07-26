@@ -5,7 +5,8 @@ class BulkHelper
     public static function GetBulkForUser($productManager, $relatedOfferManager, $сlientId = null)
     {
         //get user offers
-        require_once 'wp-content/themes/forzatheme/includes/RelatedOfferManager.php';
+        $path = fs_get_wp_config_path();
+        require_once $path.'/wp-content/themes/forzatheme/includes/RelatedOfferManager.php';
         $userOffers = relatedOfferManager::GetRelatedOffers($сlientId, null);
         
         //find if there is a special offer
@@ -53,7 +54,7 @@ class BulkHelper
             
             if($selectedOffer && $selectedOffer->ProductId != null && $selectedOffer->BulkFileID != null )
             {
-                require_once 'wp-content/themes/forzatheme/includes/ProductManager.php';
+                require_once $path.'/wp-content/themes/forzatheme/includes/ProductManager.php';
                 $bulk = productManager::GetBulk($selectedOffer->ProductId, $selectedOffer->BulkFileID);
                 
                 //json
@@ -66,10 +67,6 @@ class BulkHelper
             }
         }
         
-        var_dump($userOffers);
-        die();
-
-        //json
         return null;
     }
 }

@@ -154,7 +154,39 @@ function wpb_widgets_init() {
 
 add_action( 'widgets_init', 'wpb_widgets_init' );
 
+add_action( 'wp_ajax_nopriv_get_bulk_ajax', 'get_bulk_ajax' );
+add_action( 'wp_ajax_get_bulk_ajax', 'get_bulk_ajax');
+function get_bulk_ajax() {
+    $path = fs_get_wp_config_path();
+    require_once( $path . '/wp-content/themes/forzatheme/includes/BulkHelper.php' );
+    $data = BulkHelper::GetBulkForUser(null,null,null);
+	echo json_encode($data);
+	die(); 
+}
 
+function fs_get_wp_config_path()
+{
+    $base = dirname(__FILE__);
+    $path = false;
+
+    if (@file_exists(dirname(dirname($base))."/wp-config.php"))
+    {
+        $path = dirname(dirname($base));
+    }
+    else
+    if (@file_exists(dirname(dirname(dirname($base)))."/wp-config.php"))
+    {
+        $path = dirname(dirname(dirname($base)));
+    }
+    else
+    $path = false;
+
+    if ($path != false)
+    {
+        $path = str_replace("\\", "/", $path);
+    }
+    return $path;
+}
 
 class fluent_themes_custom_walker_nav_menu extends Walker_Nav_Menu {
 
