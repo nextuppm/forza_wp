@@ -71,7 +71,8 @@
     $loan_id                  = $client->getLoanApplicationRepository()->create(
 		[
 			"ClientID"        => $client_id,
-			"SigningMethodID" => Constants::CONSTANTS['SigningMethod']['PersonalSigning'],
+			//"SigningMethodID" => Constants::CONSTANTS['SigningMethod']['PersonalSigning'], //наверное, это тут не нужно.
+			"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
 			"ProductID"       => "b9bbad91-3e0c-413d-bdd2-c60e2da85c25", //TODO replace with received from calculator value
 			"Parameters"      => [
 				[
@@ -81,6 +82,26 @@
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
 					"LoanApplicationParameterValue" => $u_loan_days,
+				],
+				[
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'], //TODO replace next params with received from calculator value
+					"LoanApplicationParameterValue" => "30.12.2018 00:00:00",
+				],
+				[
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
+					"LoanApplicationParameterValue" => 0.00,
+				],
+				[
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
+					"LoanApplicationParameterValue" => 0.00,
+				],
+				[
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
+					"LoanApplicationParameterValue" => 0.00,
+				],
+				[
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
+					"LoanApplicationParameterValue" => 0.00,
 				],
 			]
 		]
