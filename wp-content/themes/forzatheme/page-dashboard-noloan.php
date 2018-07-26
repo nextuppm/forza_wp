@@ -1,14 +1,15 @@
 <?  /* Template Name: page-dashboard-noloan.php */
 get_header();
-$client       = new ApiClient();
-$url          = home_url( '/' );
 ?>
 	<section class="bump-bottom-md">
 		<div class="container">
-			<h1 class="extra-bold bump-top-md bump-bottom-md">Welcome, Matthew!</h1>
+				<? $client_id = get_client_id($userid);?>
+				<? if ($client_id == false):?>
+					    клиент НЕ существует или не авторизован
+				<?else:?>
+			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>, <? echo $u_fname;?> <? echo $u_lname;?>!</h1>
 
 			<div class="row">
-
 				<div class="col-lg-4 col-xl-3 bump-bottom-sm">
                    <? require_once(TEMPLATEPATH . '/inc/account-box.php'); ?>
 				</div><!--End Col 3-->
@@ -23,8 +24,8 @@ $url          = home_url( '/' );
 					</div><!--End Grey Box-->
 
 				</div><!--End Col 9-->
-
 			</div><!--End Row-->
+			<? endif;?>
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 

@@ -1,10 +1,12 @@
 <?  /* Template Name: page-dashboard-repayments.php */
 get_header();
-$client       = new ApiClient();
-$url          = home_url( '/' );
 ?>
 	<section class="bump-bottom-md bump-top-md">
 		<div class="container">
+				<? $client_id = get_client_id($userid);?>
+				<? if ($client_id == false):?>
+					    клиент НЕ существует или не авторизован
+				<?else:?>
 			<div class="row">
 
 				<div class="col-lg-4 col-xl-3 bump-bottom-sm">
@@ -88,7 +90,9 @@ $url          = home_url( '/' );
 
 
 				</div><!--End Col 8-->
+
 			</div><!--End Row-->
+			 <? endif;?>
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 

@@ -89,9 +89,10 @@ $url                = home_url( '/' );
 
 						<? if( have_rows('how_to_apply_steps', 8) ): ?>
 								  <? while( have_rows('how_to_apply_steps', 8) ): the_row();
+								    $icon_size      = 'medium';
 									$icon_id        = get_sub_field('how_to_apply_steps_icon');
-									$icon_url       = wp_get_attachment_image_url( $icon_id, $img_size );
-									$icon_size      = 'medium';
+									$icon_url       = wp_get_attachment_image_url( $icon_id, $icon_size );
+
 
 									$icon_title     = get_sub_field('how_to_apply_steps_title');
 									$icon_text      = get_sub_field('how_to_apply_steps_txt');

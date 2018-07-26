@@ -1,18 +1,50 @@
 <?  /* Template Name: page-apply.php */?>
+<? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
 
-$user_loan_amount   = $_POST["loan_amount"];
-$user_loan_days     = $_POST["loan_days"];
-$user_first_name    = $_POST["first_name"];
-$user_last_name     = $_POST["last_name"];
-$user_jmbg          = $_POST["jmbg"];
-$user_private_card  = $_POST["private_card"];
-$user_phone         = $_POST["phone"];
-$user_email         = $_POST["email"];
-$client_id = CreateClient($user_first_name, $user_last_name, $user_jmbg, $user_private_card, $user_phone, $user_email);
-setcookie("UserID", $client_id, time() + (86400 * 30), "/");
-$loan_id   = CreateLoan($client_id, $user_loan_amount, $user_loan_days);
+$u_loan_amount   = $_POST["loan_amount"];
+$u_loan_days     = $_POST["loan_days"];
+$u_first_name    = $_POST["first_name"];
+$u_last_name     = $_POST["last_name"];
+$u_jmbg          = $_POST["jmbg"];
+$u_private_card  = $_POST["private_card"];
+$u_phone         = str_replace(['(', ')', '-', ' '], ['', '', '', ''], $_POST["phone"]);
+$u_email         = $_POST["email"];
+$user_password      = $_POST["password"];
+$user_confirm_password = $_POST["confirm_password"]; //TODO нужна валидация соответствия пролей на фронте!
+
+
+$existingClients = $client->getClientRepository()->search([
+	'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['Jmbg'],
+	'DocNumber' => $u_jmbg
+]);
+
+if(count($existingClients) > 0){
+	//TODO Клиент уже существует. Заставляем авторизоваться - редирект на авторизацию.
+	die("Клиент с JMBG " . $u_jmbg . " уже существует");
+}
+else{
+	if($user_password === $user_confirm_password){
+		$client_id = CreateClient($u_first_name, $u_last_name, $u_jmbg, $u_private_card, $u_phone, $u_email);
+
+		$password_hash = $client->getHash($client_id, $user_password);
+
+		global $wpdb;
+		$wpdb->query($wpdb->prepare("INSERT INTO clients (email, phone, password, client_id) VALUES (%s, %s, %s, %s)", $u_email, $u_phone, $password_hash, $client_id));
+
+		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
+		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
+
+
+		//FIXME заменить на адекватный редирект. Можно засунуть в url loanId, а на success странице по нему достать инфу через api.
+		echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
+				"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
+				"</form>".
+				"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
+	}
+}
+
 
 ?>
 <!--?
@@ -24,7 +56,6 @@ $loan_id;
 <?else:endif;?>
 <?
 get_header();
-$client       = new ApiClient();
 $min_mkd      = get_field('min_mkd',      'option');
 $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');
@@ -133,6 +164,28 @@ $url          = home_url( '/' );
 									data-sanitize="trim lower">
 								</div>
 							</div><!--End Col 6-->
+
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="form-group">
+                                        <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
+                                        <input class="form-control" name="password" id="password" placeholder="***********"
+                                               data-validation="required"
+                                               data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
+                                               data-sanitize="trim">
+                                    </div>
+                                </div><!--End Col 6-->
+
+                                <div class="col-xl-6">
+                                    <div class="form-group">
+                                        <label for="last_name"><? echo __( 'Confirm', 'forzatheme' ); ?></label>
+                                        <input class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
+                                               data-validation="required"
+                                               data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
+                                               data-sanitize="trim">
+                                    </div>
+                                </div><!--End Col 6-->
+                            </div><!--End Row-->
 
 						</div><!--End Row-->
 

@@ -1,4 +1,4 @@
-<?
+<? session_start();
 $top_logo_id        = get_field('top_logo',      'option');
 $logo_size          = 'medium';
 $logo_url           = wp_get_attachment_image_url( $top_logo_id, $logo_size );
@@ -8,7 +8,7 @@ $enabled_languages  = get_option('qtranslate_enabled_languages');
 $curdatenum         = date( "N");
 $rows               = get_field( 'office_hours_modal','option' ); // get all the rows
 $n_row              = $rows[$curdatenum-1];
-$url                = home_url( '/' );
+
 
 ?>
 <!doctype html>
@@ -133,7 +133,7 @@ $url                = home_url( '/' );
 							<li><a href="<? echo $url;?>start/" class="btn btn-cta apply-button" id="apply-button-menu"><? echo __('Apply Now', 'forzatheme' ); ?></a>
 								<button type="button" class="btn btn-green" data-toggle="modal" data-target="#login-modal"><? echo __('Login', 'forzatheme' ); ?></button></li>
 						</ul>
-						.
+
 					</nav>
 					<div class="nav-icon d-lg-none">
 						<span></span>

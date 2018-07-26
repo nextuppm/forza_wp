@@ -11,11 +11,11 @@
 		 * @param null $url
 		 * @return stdClass
 		 */
-		public function getOffers($clientId = null, $url = null) : stdClass {
+		public function getOffers($clientId = null, $url = null) : ?stdClass {
 			$json = $this->getApi()->encodeRequestBody(
 				[
 					"getRelatedOffersListRequest" => [
-						"APIKey" => $this->apiKey,
+						"APIKey" => $this->getApi()->getApiKey(),
 						"RequestObject" => [
 							"ClientId" => $clientId,
 							"URL" => $url
