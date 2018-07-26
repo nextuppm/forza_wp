@@ -3,8 +3,8 @@
 <? if (isset($_POST['action'])):?>
 <?
 
-$u_loan_amount   = $_POST["loan_amount"];
-$u_loan_days     = $_POST["loan_days"];
+$u_loan_amount   = (int)str_replace(',', '', $_POST["loan_amount"]);
+$u_loan_days     = (int)$_POST["loan_days"];
 $u_first_name    = $_POST["first_name"];
 $u_last_name     = $_POST["last_name"];
 $u_jmbg          = $_POST["jmbg"];
@@ -169,7 +169,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
-                                        <input class="form-control" name="password" id="password" placeholder="***********"
+                                        <input type="password" class="form-control" name="password" id="password" placeholder="***********"
                                                data-validation="required"
                                                data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
@@ -179,7 +179,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="last_name"><? echo __( 'Confirm', 'forzatheme' ); ?></label>
-                                        <input class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
+                                        <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
                                                data-validation="required"
                                                data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
