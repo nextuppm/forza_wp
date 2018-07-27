@@ -8,7 +8,8 @@ $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
 
 if(isset($_GET["loanId"])){
-	$loan_application = $client->getLoanApplicationRepository()->getById($_GET["loanId"]);
+    $api = new ApiClient();
+	$loan_application = $api->getLoanApplicationRepository()->getById($_GET["loanId"]);
 }
 else{
     die("Error while loan application creating");
