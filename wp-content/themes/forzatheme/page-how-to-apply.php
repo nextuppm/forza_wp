@@ -15,7 +15,7 @@
 							<? if( have_rows('how_to_apply_steps') ): ?>
 								  <? while( have_rows('how_to_apply_steps') ): the_row();
 									$icon_id        = get_sub_field('how_to_apply_steps_icon');
-									$icon_url       = wp_get_attachment_image_url( $icon_id, $img_size );
+									$icon_url       = wp_get_attachment_image_url( $icon_id, 'medium' );
 									$icon_size      = 'medium';
 
 									$icon_title     = get_sub_field('how_to_apply_steps_title');

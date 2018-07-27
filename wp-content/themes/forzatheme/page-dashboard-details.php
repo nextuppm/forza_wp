@@ -6,9 +6,18 @@ $url                = home_url( '/' );
 	<? if ($_SESSION['crm_client'] == null):?>
 			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 	<?else:?>
-<pre>
-	<? print_r($_SESSION['crm_client']);?>
-	</pre>
+<?
+	$u_fname            = $_SESSION['crm_client']->Firstname;
+	$u_mname            = $_SESSION['crm_client']->Middlename;
+	$u_lname            = $_SESSION['crm_client']->Lastname;
+	$u_activeloan       = $_SESSION['crm_client']->ActiveLoan;
+	$u_birthdate        = $_SESSION['crm_client']->BirthDate;
+	$u_clientstatusID   = $_SESSION['crm_client']->ClientStatusID;
+	$u_email            = $_SESSION['crm_client']->Communications[0]->CommValue;
+	$u_phone            = $_SESSION['crm_client']->Communications[1]->CommValue;
+	$u_JMBG             = $_SESSION['crm_client']->RegDocuments[0]->DocNumber;
+	$u_ID_card          = $_SESSION['crm_client']->RegDocuments[1]->DocNumber;
+?>
 	<section class="bump-bottom-md">
 		<div class="container">
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Your Details', 'forzatheme' ); ?></h1>
