@@ -7,6 +7,8 @@ var periodRangeRuleRuleMin = 0;
 var periodRangeRuleRuleMax = 1;
 var bulk = false;
 
+$( "#apply-button-home-main" ).prop( "disabled", true );
+
 //Set Up Sliders
 var slideramount = document.getElementById('slideramount');
 var sliderAmountOptions = {
@@ -140,7 +142,7 @@ $(function(){
     
     $.ajax({
         type 	  : 'POST',
-        url       : 'wp-admin/admin-ajax.php',
+        url       : ajaxdata.url,
         data : {
                 action    : 'get_bulk_ajax',
                 oblastid  : '22'
@@ -227,6 +229,12 @@ $(function(){
             sliderAmountOptions.start = amountParameter;
             sliderTermOptions.start = daysParameter;
         }
+        
+        $('#min_mkd').html(sliderAmountOptions.min);
+        $('#max_mkd').html(sliderAmountOptions.max);
+        
+        $('#min_days').html(sliderTermOptions.min);
+        $('#max_days').html(sliderTermOptions.max);
 
         bulkLoaded = true;
         bulkLoading = false;
@@ -260,6 +268,7 @@ $(function(){
         });
         
         displayLoanInfo();
+        $( "#apply-button-home-main" ).prop( "disabled", false );
     })
     .fail(function(data) {
         console.log(data);
