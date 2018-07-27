@@ -70,7 +70,7 @@
 									<span class="grey p14 bold"><? echo __( 'Repayment Date', 'forzatheme' ); ?></span>
 								</div>
 								<div class="ml-auto text-right">
-									<span class="grey p14 bold loan-date-display"><? echo $_POST['RepaymentDay']; ?> <? echo $_POST['RepaymentMonth']; ?></span>
+									<span class="grey p14 bold loan-date-display"><? echo isset($_POST['RepaymentDay']) ? $_POST['RepaymentDay'] : 0; ?> <? echo isset($_POST['RepaymentMonth']) ? $_POST['RepaymentMonth'] : 0; ?></span>
 								</div>
 							</div>
 							<div class="d-flex">
@@ -78,7 +78,7 @@
 									<span class="grey p14 bold"><? echo __( 'Repayment Total', 'forzatheme' ); ?></span>
 								</div>
 								<div class="ml-auto text-right">
-									<span class="grey p14 bold" id="rpa"><span class="loan-repayment-display"><? echo $_POST['AmountToPay']; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
+									<span class="grey p14 bold" id="rpa"><span class="loan-repayment-display"><? echo isset($_POST['AmountToPay']) ? $_POST['AmountToPay'] : 0; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 						</div><!--End Loan Details-->

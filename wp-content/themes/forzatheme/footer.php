@@ -137,7 +137,9 @@ $url                = home_url( '/' );
 						<span class="p14"><strong><? echo __('Not yet registered?', 'forzatheme' ); ?></strong> <? echo __('Create your account by starting a new application.', 'forzatheme' ); ?><br><br><a href="<? echo $url;?>start/"><? echo __('Click here to apply', 'forzatheme' ); ?></a></span>
 					</div><!--End Col 4-->
 					<div class="col-lg-7 pad-top-sm">
-						<form class="" method="POST" action="<? echo $url;?>dashboard/" id="form-login-modal">
+
+
+						<form class="" method="POST" action="<? echo $url;?>log-in/" id="form-login-modal">
 							<h3 class="bump-bottom-sm"><? echo __('Log In', 'forzatheme' ); ?></h3>
 							<p class="light"><? echo __('Log in to access your private account, make loan repayments, update your details and view your rewards.', 'forzatheme' ); ?></p>
 							<div class="form-group bump-bottom-xs">
@@ -159,6 +161,9 @@ $url                = home_url( '/' );
 								<br><br><span class="p14"><a href="<? echo $url;?>forgotten-password/"><? echo __('Forgot Your Password?', 'forzatheme' ); ?></a></span>
 							</div>
 						</form>
+
+
+
 					</div><!--End Col 8-->
 
 				</div><!--End Row-->
