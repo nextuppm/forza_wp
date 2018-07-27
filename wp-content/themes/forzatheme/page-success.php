@@ -16,7 +16,6 @@ else{
 }
 
 ?>
-?>
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
 	<section class="bump-bottom-md">
 		<div class="container">
