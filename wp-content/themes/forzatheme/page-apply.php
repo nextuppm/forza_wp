@@ -2,9 +2,18 @@
 <? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
-$url                   = home_url( '/' );
-$u_loan_amount         = (int)str_replace(',', '', $_POST["loan_amount"]);
-$u_loan_days           = (int)$_POST["loan_days"];
+$url = home_url( '/' );
+$u_loan_amount          = (int)str_replace(',', '', $_POST["loan_amount"]);
+$u_loan_days            = (int)$_POST["loan_days"];
+$u_loan_product_id      = $_POST["ProductId"];
+$u_loan_spec_offer_id   = $_POST["SpecOfferId"]; //Куда это?
+$u_loan_amount_to_pay   = $_POST["AmountToPay"];
+$u_loan_apr             = $_POST["Apr"];
+$u_loan_fee_amount      = $_POST["FeeAmount"];
+$u_loan_interest_amount = $_POST["InterestAmount"];
+$u_loan_due_date        = $_POST["DueDate"]; //30.12.2018 00:00:00
+
+
 $u_first_name          = $_POST["first_name"];
 $u_last_name           = $_POST["last_name"];
 $u_jmbg                = $_POST["jmbg"];
@@ -34,8 +43,19 @@ else{
 		global $wpdb;
 		$wpdb->query($wpdb->prepare("INSERT INTO clients (email, phone, password, client_id) VALUES (%s, %s, %s, %s)", $u_email, $u_phone, $password_hash, $client_id));
 
-		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
-		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
+		$loan_id = CreateLoanApplication(
+		        $client_id,
+				$u_loan_product_id,
+                $u_loan_amount,
+                $u_loan_days,
+				$u_loan_amount_to_pay,
+				$u_loan_apr,
+				$u_loan_fee_amount,
+				$u_loan_interest_amount,
+				$u_loan_due_date
+        );
+
+		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id); //TODO убрать, и передать в success id заявки
 
         echo'<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_application->AppNumber.'");</script>';
 
