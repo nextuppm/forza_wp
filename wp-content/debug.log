@@ -1650,3 +1650,86 @@ Stack trace:
 [27-Jul-2018 09:47:59 UTC] PHP   7. wpdb->__construct() /var/www/html/forza/wp-includes/load.php:404
 [27-Jul-2018 09:47:59 UTC] PHP   8. wpdb->db_connect() /var/www/html/forza/wp-includes/wp-db.php:592
 [27-Jul-2018 09:47:59 UTC] PHP   9. mysqli_real_connect() /var/www/html/forza/wp-includes/wp-db.php:1531
+[27-Jul-2018 12:08:46 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wordpressuser'@'localhost' (using password: YES) in /var/www/html/forza/wp-includes/wp-db.php on line 1531
+[27-Jul-2018 12:08:46 UTC] PHP Stack trace:
+[27-Jul-2018 12:08:46 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/index.php:0
+[27-Jul-2018 12:08:46 UTC] PHP   2. require_once() /var/www/html/forza/wp-admin/index.php:10
+[27-Jul-2018 12:08:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-admin/admin.php:31
+[27-Jul-2018 12:08:46 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[27-Jul-2018 12:08:46 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[27-Jul-2018 12:08:46 UTC] PHP   6. require_wp_db() /var/www/html/forza/wp-settings.php:106
+[27-Jul-2018 12:08:46 UTC] PHP   7. wpdb->__construct() /var/www/html/forza/wp-includes/load.php:404
+[27-Jul-2018 12:08:46 UTC] PHP   8. wpdb->db_connect() /var/www/html/forza/wp-includes/wp-db.php:592
+[27-Jul-2018 12:08:46 UTC] PHP   9. mysqli_real_connect() /var/www/html/forza/wp-includes/wp-db.php:1531
+[27-Jul-2018 12:46:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:46:27 UTC] PHP Stack trace:
+[27-Jul-2018 12:46:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:46:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:46:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:46:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:46:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:46:27 UTC] PHP Stack trace:
+[27-Jul-2018 12:46:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:46:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:46:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:46:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:46:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:46:27 UTC] PHP Stack trace:
+[27-Jul-2018 12:46:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:46:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:46:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:46:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:47:58 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:47:58 UTC] PHP Stack trace:
+[27-Jul-2018 12:47:58 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:47:58 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:47:58 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:47:58 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:47:58 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:47:58 UTC] PHP Stack trace:
+[27-Jul-2018 12:47:58 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:47:58 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:47:58 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:47:58 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:47:58 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:47:58 UTC] PHP Stack trace:
+[27-Jul-2018 12:47:58 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:47:58 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:47:58 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:47:58 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:16 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:16 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:16 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:16 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:16 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:16 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:16 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:16 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:16 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:16 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:16 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:16 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:16 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:16 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:16 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:16 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:16 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:16 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:38 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:38 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:38 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:38 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:38 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:38 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:38 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:38 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:38 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:38 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:38 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:38 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 12:48:38 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 12:48:38 UTC] PHP Stack trace:
+[27-Jul-2018 12:48:38 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 12:48:38 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 12:48:38 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 12:48:38 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74

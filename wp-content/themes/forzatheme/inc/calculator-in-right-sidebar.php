@@ -36,17 +36,17 @@ $url          = home_url( '/' );
 							</div>
 							<div class="bump-bottom-xs">
 								<div style="position: relative;">
-									<div id="loan-limit-warning" class="alert alert-danger p12"><? echo __('For new customers, a maximum amount of 12,000 MKD applies. To apply for more please <a href="login.html" data-toggle="modal" data-target="#login-modal">login to your account</a>', 'forzatheme' ); ?></div>
+									<!--<div id="loan-limit-warning" class="alert alert-danger p12"><? echo __('For new customers, a maximum amount of 12,000 MKD applies. To apply for more please <a href="login.html" data-toggle="modal" data-target="#login-modal">login to your account</a>', 'forzatheme' ); ?></div>-->
 									<div id="slideramount">
 									</div>
 								</div><!--End Slider Amount-->
 							</div><!--End App Row-->
 							<div class="row bump-bottom-sm">
 								<div class="col">
-									<span class="txt-grey p12"><? echo $min_mkd; ?> <? echo __('MKD', 'forzatheme' ); ?></span>
+									<span class="txt-grey p12"><span id="min_mkd"></span> <? echo __('MKD', 'forzatheme' ); ?></span>
 								</div>
 								<div class="col text-right">
-									<span class="txt-grey p12"><? echo $max_mkd; ?> <? echo __('MKD', 'forzatheme' ); ?></span>
+									<span class="txt-grey p12"><span id="max_mkd"></span> <? echo __('MKD', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 
@@ -67,29 +67,29 @@ $url          = home_url( '/' );
 							</div><!--End App Row-->
 							<div class="row bump-bottom-sm">
 								<div class="col">
-									<span class="txt-grey p12"><? echo $min_days; ?>  <? echo __('Days', 'forzatheme' ); ?></span>
+									<span class="txt-grey p12"><span id="min_days"></span>  <? echo __('Days', 'forzatheme' ); ?></span>
 								</div>
 								<div class="col text-right">
-									<span class="txt-grey p12"><? echo $max_days; ?>  <? echo __('Days', 'forzatheme' ); ?></span>
+									<span class="txt-grey p12"><span id="max_days"></span>  <? echo __('Days', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 
 							<div class="calculator-box-details bump-bottom-xs">
 								<div class="d-flex">
 									<div>
-										<s class="grey p14 strike"><? echo __('Interest', 'forzatheme' ); ?> 10%</s>
+										<span class="grey p14 strike"><? echo __('Interest', 'forzatheme' ); ?> 10%</span>
 									</div>
 									<div class="ml-auto text-right">
-										<s class="grey p14 strike"><span class="loan-interest-display" id="InterestAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
+										<span class="grey p14 strike"><span class="loan-interest-display" id="InterestAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></span>
 									</div>
 								</div>
 
 								<div class="d-flex">
 									<div>
-										<s class="grey p14 strike"><? echo __('Fee', 'forzatheme' ); ?></s>
+										<span class="grey p14 strike"><? echo __('Fee', 'forzatheme' ); ?></span>
 									</div>
 									<div class="ml-auto text-right">
-										<s class="grey p14 strike"><span class="loan-fee-display" id="FeeAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
+										<span class="grey p14 strike"><span class="loan-fee-display" id="FeeAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></span>
 									</div>
 								</div>
 
