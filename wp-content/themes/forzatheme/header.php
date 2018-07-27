@@ -1,4 +1,9 @@
 <? session_start();
+$url                = home_url( '/' );
+if (isset($_GET['logout'])) {
+    session_destroy();
+    header('Location: '.$url.'');
+}
 $top_logo_id        = get_field('top_logo',      'option');
 $logo_size          = 'medium';
 $logo_url           = wp_get_attachment_image_url( $top_logo_id, $logo_size );
@@ -8,7 +13,7 @@ $enabled_languages  = get_option('qtranslate_enabled_languages');
 $curdatenum         = date( "N");
 $rows               = get_field( 'office_hours_modal','option' ); // get all the rows
 $n_row              = $rows[$curdatenum-1];
-$url                = home_url( '/' );
+
 
 ?>
 <!doctype html>
@@ -83,7 +88,14 @@ $url                = home_url( '/' );
 										</ul>
 									</span>
 								</li>
-								<li><a href="#" class="btn btn-green" data-toggle="modal" data-target="#login-modal">Login</a></li>
+
+
+								<? if(isset($_SESSION['crm_client'])) :?>
+								  <li><a href="<? echo $url;?>dashboard/" class="btn btn-green" ><? echo __( 'Personal Cabinet', 'forzatheme' ); ?></a></li>
+								<? else:?>
+								  <li><a href="#" class="btn btn-green" data-toggle="modal" data-target="#login-modal"><? echo __( 'Login', 'forzatheme' ); ?></a></li>
+								<? endif;?>
+
 							</ul>
 						</nav>
 
@@ -130,8 +142,14 @@ $url                = home_url( '/' );
 										</ul>
 									</span>
 							</li>
-							<li><a href="<? echo $url;?>start/" class="btn btn-cta apply-button" id="apply-button-menu"><? echo __('Apply Now', 'forzatheme' ); ?></a>
-								<button type="button" class="btn btn-green" data-toggle="modal" data-target="#login-modal"><? echo __('Login', 'forzatheme' ); ?></button></li>
+							<li><a href="<? echo $url;?>start/" class="btn btn-cta apply-button" id="apply-button-menu"><? echo __('Apply Now', 'forzatheme' ); ?></a></li>
+
+							<? if(isset($_SESSION['crm_client'])) :?>
+								  <li><a href="<? echo $url;?>dashboard/" class="btn btn-green"><? echo __( 'Personal Cabinet', 'forzatheme' ); ?></a></li>
+							<? else:?>
+								  <li><a href="#" class="btn btn-green" data-toggle="modal" data-target="#login-modal"><? echo __( 'Login', 'forzatheme' ); ?></a></li>
+							<? endif;?>
+
 						</ul>
 
 					</nav>

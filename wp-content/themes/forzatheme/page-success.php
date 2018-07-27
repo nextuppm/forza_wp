@@ -6,6 +6,11 @@ $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');
 $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
+
+echo '<pre>';
+print_r($_SESSION);
+echo '</pre>';
+?>
 ?>
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
 	<section class="bump-bottom-md">
@@ -33,7 +38,7 @@ $url          = home_url( '/' );
 					</div><!--End Row-->
 
 					<p> <? echo __( 'Thank you for filling out your application, it is already being processed and we will contact you in 15 minutes with further information.', 'forzatheme' ); ?></p>
-					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> <?= isset($_POST['loan_application_number']) ? $_POST['loan_application_number'] : 0 ?></p>
+					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> <?= isset($_GET["loanId"]) ? $_GET["loanId"]: 0 ?></p>
 					<p><? echo __( 'Thank you for choosing Forza!', 'forzatheme' ); ?></p>
 				</div><!--End Col 9-->
 
