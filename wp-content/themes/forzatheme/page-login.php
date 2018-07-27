@@ -47,7 +47,7 @@ if(isset($_GET['err']) && !empty($_GET['err'])){
    <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
 
 
-<? if ($_SESSION['crm_client'] == null):?>
+<? if (isset($_SESSION['crm_client']) == null):?>
 
 
 	<main class="bump-bottom-md bump-top-md">
