@@ -1525,3 +1525,117 @@ Stack trace:
 [26-Jul-2018 16:50:46 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
 [26-Jul-2018 16:50:46 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
 [26-Jul-2018 16:50:46 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 16:56:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wordpressuser'@'localhost' (using password: YES) in /var/www/html/forza/wp-includes/wp-db.php on line 1531
+[26-Jul-2018 16:56:36 UTC] PHP Stack trace:
+[26-Jul-2018 16:56:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 16:56:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 16:56:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 16:56:36 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 16:56:36 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 16:56:36 UTC] PHP   6. require_wp_db() /var/www/html/forza/wp-settings.php:106
+[26-Jul-2018 16:56:36 UTC] PHP   7. wpdb->__construct($dbuser = *uninitialized*, $dbpassword = *uninitialized*, $dbname = *uninitialized*, $dbhost = *uninitialized*) /var/www/html/forza/wp-includes/load.php:404
+[26-Jul-2018 16:56:36 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:592
+[26-Jul-2018 16:56:36 UTC] PHP   9. mysqli_real_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:1531
+[26-Jul-2018 16:57:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wordpressuser'@'localhost' (using password: YES) in /var/www/html/forza/wp-includes/wp-db.php on line 1531
+[26-Jul-2018 16:57:12 UTC] PHP Stack trace:
+[26-Jul-2018 16:57:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 16:57:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 16:57:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 16:57:12 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 16:57:12 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 16:57:12 UTC] PHP   6. require_wp_db() /var/www/html/forza/wp-settings.php:106
+[26-Jul-2018 16:57:12 UTC] PHP   7. wpdb->__construct($dbuser = *uninitialized*, $dbpassword = *uninitialized*, $dbname = *uninitialized*, $dbhost = *uninitialized*) /var/www/html/forza/wp-includes/load.php:404
+[26-Jul-2018 16:57:12 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:592
+[26-Jul-2018 16:57:12 UTC] PHP   9. mysqli_real_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:1531
+[27-Jul-2018 06:58:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[27-Jul-2018 06:58:49 UTC] PHP Stack trace:
+[27-Jul-2018 06:58:49 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 06:58:49 UTC] PHP   2. do_action() /var/www/html/forza/wp-admin/admin-ajax.php:114
+[27-Jul-2018 06:58:49 UTC] PHP   3. WP_Hook->do_action() /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 06:58:49 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 06:58:49 UTC] PHP   5. get_bulk_ajax() /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 06:58:49 UTC] PHP   6. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:189
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:16:06 UTC] Eroare bază de date WordPress Table 'wordpress.clients' doesn't exist pentru interogarea INSERT INTO clients (email, phone, password, client_id) VALUES ('ivanstroilov@gmail.com', '123123123', 'DKX2pP4mRxRtflTaxdr0/Q==', '822cf259-31fc-444a-9799-dc2d215ac3a0') efectuată de require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/forzatheme/page-apply.php')
+[27-Jul-2018 07:16:36 UTC] Eroare bază de date WordPress Table 'wordpress.clients' doesn't exist pentru interogarea SELECT * FROM clients WHERE email = 'ivanstroilov@gmail.com'; efectuată de require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/forzatheme/page-dashboard.php')
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:22:44 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:22:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:22:44 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:22:44 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:22:44 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:22:44 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:22:44 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:25:04 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:25:04 UTC] PHP Stack trace:
+[27-Jul-2018 07:25:04 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:25:04 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:25:04 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:25:04 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:25:04 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:26:45 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:26:45 UTC] PHP Stack trace:
+[27-Jul-2018 07:26:45 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:26:45 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:26:45 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:26:45 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:26:45 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:26:54 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:26:54 UTC] PHP Stack trace:
+[27-Jul-2018 07:26:54 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:26:54 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:26:54 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:26:54 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:26:54 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286

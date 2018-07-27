@@ -13,6 +13,8 @@ $url          = home_url( '/' );
                         <input name="FeeAmount" id="FeeAmount" val="" type="hidden">
                         <input name="InterestAmount" id="InterestAmount" val="" type="hidden">
                         <input name="RepaymentDate" id="RepaymentDate" val="" type="hidden">
+                        <input name="RepaymentDay" id="RepaymentDay" val="" type="hidden">
+                        <input name="RepaymentMonth" id="RepaymentMonth" val="" type="hidden">
                         <input name="Amount" id="Amount" val="" type="hidden">
                         <input name="Term" id="Term" val="" type="hidden">
 						<div class="box calculator-box">

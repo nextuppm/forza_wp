@@ -339,9 +339,11 @@ function changeValues(dayIndex, amountIndex, amount) {
 
     //Display the Repayment Date
     $(".loan-day-display").html(dueDate.getDate());
+    $('#RepaymentDay').val(dueDate.getDate());
 
     //Display the Repayment Date
     $(".loan-month-display").html(getMonth(dueDate.getMonth()));
+    $('#RepaymentMonth').val(getMonth(dueDate.getMonth()));
 };
 
 

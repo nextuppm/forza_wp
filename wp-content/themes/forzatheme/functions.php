@@ -178,9 +178,17 @@ add_action( 'widgets_init', 'wpb_widgets_init' );
 add_action( 'wp_ajax_nopriv_get_bulk_ajax', 'get_bulk_ajax' );
 add_action( 'wp_ajax_get_bulk_ajax', 'get_bulk_ajax');
 function get_bulk_ajax() {
+    session_start();
     $path = fs_get_wp_config_path();
     require_once( $path . '/wp-content/themes/forzatheme/includes/BulkHelper.php' );
-    $data = BulkHelper::GetBulkForUser(null,null,null);
+    //crm_client
+    $client_id = null;
+    $ses = $_SESSION;
+    if(isset($_SESSION['crm_client']->ClientID) && !empty($_SESSION['crm_client']->ClientID))
+    {
+        $client_id = $_SESSION['crm_client']->ClientID;
+    }
+    $data = BulkHelper::GetBulkForUser(null,null,$client_id);
 	echo json_encode($data);
 	die(); 
 }
