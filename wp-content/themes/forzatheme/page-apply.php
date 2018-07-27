@@ -97,7 +97,18 @@ $url          = home_url( '/' );
 					<!--form action="<? //echo $url;?>success/" method="POST" id="application-form-step2"-->
                     <input  name="loan_amount" id="loan_amount" type="hidden" value="<? echo $_POST['loan_amount']; ?>" >
                     <input  name="loan_days" id="loan_days" type="hidden" value="<? echo $_POST['loan_days']; ?>" >
-
+                    
+                    <input name="ProductId" id="ProductId" val="<? echo $_POST['ProductId']; ?>" type="hidden">
+                    <input name="SpecOfferId" id="SpecOfferId" val="<? echo $_POST['SpecOfferId']; ?>" type="hidden">
+                    <input name="AmountToPay" id="AmountToPay" val="<? echo $_POST['AmountToPay']; ?>" type="hidden">
+                    <input name="Apr" id="Apr" val="<? echo $_POST['Apr']; ?>" type="hidden">
+                    <input name="FeeAmount" id="FeeAmount" val="<? echo $_POST['FeeAmount']; ?>" type="hidden">
+                    <input name="InterestAmount" id="InterestAmount" val="<? echo $_POST['InterestAmount']; ?>" type="hidden">
+                    <input name="RepaymentDate" id="RepaymentDate" val="<? echo $_POST['RepaymentDate']; ?>" type="hidden">
+                    <input name="RepaymentDay" id="RepaymentDay" val="<? echo $_POST['RepaymentDay']; ?>" type="hidden">
+                    <input name="RepaymentMonth" id="RepaymentMonth" val="<? echo $_POST['RepaymentMonth']; ?>" type="hidden">
+                    <input name="Amount" id="Amount" val="<? echo $_POST['Amount']; ?>" type="hidden">
+                    <input name="Term" id="Term" val="<? echo $_POST['Term']; ?>" type="hidden">
 
 						<div class="row">
 							<div class="col-xl-6">

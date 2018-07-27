@@ -2,7 +2,7 @@
 	function my_theme_setup(){
 		load_theme_textdomain('forzatheme', get_template_directory() . '/languages');
 	}
-
+//TODO remove '/forza'
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/vendor/autoload.php' );
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/ApiClient.php' );
 	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/data/Constants.php' );
@@ -13,6 +13,12 @@
 			$client                = new ApiClient();
 			$clientinfo            = $client->getClientRepository()->getById($userid);
 			return $clientinfo;
+	}
+    
+    function offerinfo($clientId, $url) {
+			$client                = new ApiClient();
+			$offerinfo            = $client->getProductRepository()->getOffers($clientId, $url);
+			return $offerinfo;
 	}
 
 	function get_client_id($userid) {
@@ -169,7 +175,47 @@ function wpb_widgets_init() {
 
 add_action( 'widgets_init', 'wpb_widgets_init' );
 
+add_action( 'wp_ajax_nopriv_get_bulk_ajax', 'get_bulk_ajax' );
+add_action( 'wp_ajax_get_bulk_ajax', 'get_bulk_ajax');
+function get_bulk_ajax() {
+    session_start();
+    $path = fs_get_wp_config_path();
+    require_once( $path . '/wp-content/themes/forzatheme/includes/BulkHelper.php' );
+    //crm_client
+    $client_id = null;
+    $ses = $_SESSION;
+    if(isset($_SESSION['crm_client']->ClientID) && !empty($_SESSION['crm_client']->ClientID))
+    {
+        $client_id = $_SESSION['crm_client']->ClientID;
+    }
+    $data = BulkHelper::GetBulkForUser(null,null,$client_id);
+	echo json_encode($data);
+	die(); 
+}
 
+function fs_get_wp_config_path()
+{
+    $base = dirname(__FILE__);
+    $path = false;
+
+    if (@file_exists(dirname(dirname($base))."/wp-config.php"))
+    {
+        $path = dirname(dirname($base));
+    }
+    else
+    if (@file_exists(dirname(dirname(dirname($base)))."/wp-config.php"))
+    {
+        $path = dirname(dirname(dirname($base)));
+    }
+    else
+    $path = false;
+
+    if ($path != false)
+    {
+        $path = str_replace("\\", "/", $path);
+    }
+    return $path;
+}
 
 class fluent_themes_custom_walker_nav_menu extends Walker_Nav_Menu {
 

@@ -1,0 +1,1641 @@
+[25-Jul-2018 06:28:30 UTC] PHP Warning:  require_once(/var/www/html/api-client/ApiClient/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 06:28:30 UTC] PHP Stack trace:
+[25-Jul-2018 06:28:30 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 06:28:30 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 06:28:30 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 06:28:30 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 06:28:30 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 06:28:30 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 06:28:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/api-client/ApiClient/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 06:28:30 UTC] PHP Stack trace:
+[25-Jul-2018 06:28:30 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 06:28:30 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 06:28:30 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 06:28:30 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 06:28:30 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 06:28:30 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:03:04 UTC] PHP Warning:  require_once(/var/www/html/api-client/ApiClient/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:03:04 UTC] PHP Stack trace:
+[25-Jul-2018 08:03:04 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:03:04 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:03:04 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:03:04 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:03:04 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:03:04 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:03:04 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/api-client/ApiClient/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:03:04 UTC] PHP Stack trace:
+[25-Jul-2018 08:03:04 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:03:04 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:03:04 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:03:04 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:03:04 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:03:04 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:06:14 UTC] PHP Warning:  require_once(/var/www/html/api-client/ApiClient/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:06:14 UTC] PHP Stack trace:
+[25-Jul-2018 08:06:14 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:06:14 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:06:14 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:06:14 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:06:14 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:06:14 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:06:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/api-client/ApiClient/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:06:14 UTC] PHP Stack trace:
+[25-Jul-2018 08:06:14 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:06:14 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:06:14 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:06:14 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:06:14 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:06:14 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:09:22 UTC] PHP Warning:  require_once(/var/www/html/api-client/ApiClient/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:09:22 UTC] PHP Stack trace:
+[25-Jul-2018 08:09:22 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:09:22 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:09:22 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:09:22 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:09:22 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:09:22 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:09:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/api-client/ApiClient/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[25-Jul-2018 08:09:22 UTC] PHP Stack trace:
+[25-Jul-2018 08:09:22 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:09:22 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:09:22 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:09:22 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:09:22 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:09:22 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:09:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /var/www/html/forza/api-client/ApiClient/ApiClient.php on line 63
+[25-Jul-2018 08:09:38 UTC] PHP Stack trace:
+[25-Jul-2018 08:09:38 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:09:38 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:09:38 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:09:38 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:09:38 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:09:38 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 08:12:40 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /var/www/html/forza/api-client/ApiClient/ApiClient.php on line 63
+[25-Jul-2018 08:12:40 UTC] PHP Stack trace:
+[25-Jul-2018 08:12:40 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 08:12:40 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 08:12:40 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 08:12:40 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 08:12:40 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 08:12:40 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 09:01:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:01:46 UTC] PHP Stack trace:
+[25-Jul-2018 09:01:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:01:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:01:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:01:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:01:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:01:46 UTC] PHP Stack trace:
+[25-Jul-2018 09:01:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:01:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:01:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:01:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:01:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:01:46 UTC] PHP Stack trace:
+[25-Jul-2018 09:01:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:01:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:01:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:01:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:01:46 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[25-Jul-2018 09:01:46 UTC] PHP Stack trace:
+[25-Jul-2018 09:01:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:01:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:01:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:01:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:01:46 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[25-Jul-2018 09:29:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:29:27 UTC] PHP Stack trace:
+[25-Jul-2018 09:29:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:29:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:29:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:29:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:29:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:29:27 UTC] PHP Stack trace:
+[25-Jul-2018 09:29:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:29:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:29:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:29:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:29:27 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:29:27 UTC] PHP Stack trace:
+[25-Jul-2018 09:29:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:29:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:29:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:29:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:29:27 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[25-Jul-2018 09:29:27 UTC] PHP Stack trace:
+[25-Jul-2018 09:29:27 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:29:27 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:29:27 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:29:27 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:29:27 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[25-Jul-2018 09:31:01 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:31:01 UTC] PHP Stack trace:
+[25-Jul-2018 09:31:01 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:31:01 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:31:01 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:31:01 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:31:01 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:31:01 UTC] PHP Stack trace:
+[25-Jul-2018 09:31:01 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:31:01 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:31:01 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:31:01 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:31:01 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 09:31:01 UTC] PHP Stack trace:
+[25-Jul-2018 09:31:01 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:31:01 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:31:01 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:31:01 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:31:01 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[25-Jul-2018 09:31:01 UTC] PHP Stack trace:
+[25-Jul-2018 09:31:01 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 09:31:01 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 09:31:01 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 09:31:01 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 09:31:01 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[25-Jul-2018 12:07:03 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ';' or '{' in /var/www/html/forza/api-client/ApiClient/ApiClient.php on line 63
+[25-Jul-2018 12:07:03 UTC] PHP Stack trace:
+[25-Jul-2018 12:07:03 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 12:07:03 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 12:07:03 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[25-Jul-2018 12:07:03 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[25-Jul-2018 12:07:03 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[25-Jul-2018 12:07:03 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[25-Jul-2018 12:59:26 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 12:59:26 UTC] PHP Stack trace:
+[25-Jul-2018 12:59:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 12:59:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 12:59:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 12:59:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 12:59:26 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 12:59:26 UTC] PHP Stack trace:
+[25-Jul-2018 12:59:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 12:59:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 12:59:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 12:59:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 12:59:26 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[25-Jul-2018 12:59:26 UTC] PHP Stack trace:
+[25-Jul-2018 12:59:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 12:59:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 12:59:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 12:59:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 12:59:26 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[25-Jul-2018 12:59:26 UTC] PHP Stack trace:
+[25-Jul-2018 12:59:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 12:59:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 12:59:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 12:59:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 12:59:26 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[25-Jul-2018 13:00:41 UTC] PHP Fatal error:  Uncaught Error: Class 'relatedOfferManager' not found in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:8
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[25-Jul-2018 13:01:37 UTC] PHP Deprecated:  Non-static method RelatedOfferManager::GetRelatedOffers() should not be called statically in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[25-Jul-2018 13:01:37 UTC] PHP Stack trace:
+[25-Jul-2018 13:01:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:01:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:01:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:01:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:01:37 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:01:37 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:01:37 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:01:37 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:01:37 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:01:37 UTC] PHP  10. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[25-Jul-2018 13:01:37 UTC] PHP Notice:  Undefined variable: client in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php on line 9
+[25-Jul-2018 13:01:37 UTC] PHP Stack trace:
+[25-Jul-2018 13:01:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:01:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:01:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:01:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:01:37 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:01:37 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:01:37 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:01:37 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:01:37 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:01:37 UTC] PHP  10. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[25-Jul-2018 13:01:37 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[25-Jul-2018 13:01:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getProductRepository() on null in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php(9): RelatedOfferManager::GetRelatedOffers(NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#2 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#5 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#6 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#7 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#8 /var/www/html/forza/wp-blog-header.p in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php on line 9
+[25-Jul-2018 13:01:57 UTC] PHP Notice:  Undefined variable: client in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php on line 9
+[25-Jul-2018 13:01:57 UTC] PHP Stack trace:
+[25-Jul-2018 13:01:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:01:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:01:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:01:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:01:57 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:01:57 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:01:57 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:01:57 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:01:57 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:01:57 UTC] PHP  10. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[25-Jul-2018 13:01:57 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[25-Jul-2018 13:01:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getProductRepository() on null in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php(9): RelatedOfferManager::GetRelatedOffers(NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#2 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#5 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#6 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#7 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#8 /var/www/html/forza/wp-blog-header.p in /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php on line 9
+[25-Jul-2018 13:02:20 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[25-Jul-2018 13:02:20 UTC] PHP Stack trace:
+[25-Jul-2018 13:02:20 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:02:20 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:02:20 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:02:20 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:02:20 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:02:20 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:02:20 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:02:20 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:02:20 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:02:20 UTC] PHP  10. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[25-Jul-2018 13:02:20 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[25-Jul-2018 13:02:20 UTC] PHP  12. ProductRepository->getOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[25-Jul-2018 13:02:21 UTC] PHP Fatal error:  Uncaught TypeError: Return value of ProductRepository::getOffers() must be an instance of stdClass, null returned in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php:32
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php(9): ProductRepository->getOffers(NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php(9): RelatedOfferManager::GetRelatedOffers(NULL, NULL)
+#2 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#3 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#5 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#6 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#7 /var/www/html/forza/wp-content/themes/ in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 32
+[25-Jul-2018 13:06:13 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[25-Jul-2018 13:06:13 UTC] PHP Stack trace:
+[25-Jul-2018 13:06:13 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:06:13 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:06:13 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:06:13 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:06:13 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:06:13 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:06:13 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:06:13 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:06:13 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:06:13 UTC] PHP  10. offerinfo() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:5
+[25-Jul-2018 13:06:13 UTC] PHP  11. ProductRepository->getOffers() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:20
+[25-Jul-2018 13:06:14 UTC] PHP Fatal error:  Uncaught TypeError: Return value of ProductRepository::getOffers() must be an instance of stdClass, null returned in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php:32
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/functions.php(20): ProductRepository->getOffers(NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(5): offerinfo(NULL, NULL)
+#2 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#5 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#6 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#7 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#8 /var/www/html/forza/wp-blog-header.p in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 32
+[25-Jul-2018 13:09:51 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[25-Jul-2018 13:09:51 UTC] PHP Stack trace:
+[25-Jul-2018 13:09:51 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[25-Jul-2018 13:09:51 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[25-Jul-2018 13:09:51 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[25-Jul-2018 13:09:51 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[25-Jul-2018 13:09:51 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[25-Jul-2018 13:09:51 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[25-Jul-2018 13:09:51 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[25-Jul-2018 13:09:51 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[25-Jul-2018 13:09:51 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[25-Jul-2018 13:09:51 UTC] PHP  10. offerinfo() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:5
+[25-Jul-2018 13:09:51 UTC] PHP  11. ProductRepository->getOffers() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:20
+[25-Jul-2018 13:09:52 UTC] PHP Fatal error:  Uncaught TypeError: Return value of ProductRepository::getOffers() must be an instance of stdClass, null returned in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php:32
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/functions.php(20): ProductRepository->getOffers(NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(5): offerinfo(NULL, NULL)
+#2 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#5 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#6 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#7 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#8 /var/www/html/forza/wp-blog-header.p in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 32
+[26-Jul-2018 08:26:08 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:26:08 UTC] PHP Stack trace:
+[26-Jul-2018 08:26:08 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:26:08 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:26:08 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:26:08 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:26:08 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:26:08 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:26:08 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:26:08 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:26:08 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:26:08 UTC] PHP  10. offerinfo() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:5
+[26-Jul-2018 08:26:08 UTC] PHP  11. ProductRepository->getOffers() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:20
+[26-Jul-2018 08:27:19 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:27:19 UTC] PHP Stack trace:
+[26-Jul-2018 08:27:19 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:27:19 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:27:19 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:27:19 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:27:19 UTC] PHP   5. get_header() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:27:19 UTC] PHP   6. locate_template() /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:27:19 UTC] PHP   7. load_template() /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:27:19 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:27:19 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:27:19 UTC] PHP  10. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:27:19 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:27:19 UTC] PHP  12. ProductRepository->getOffers() /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:27:20 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:13
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 13
+[26-Jul-2018 08:33:08 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:33:08 UTC] PHP Stack trace:
+[26-Jul-2018 08:33:08 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:33:08 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:33:08 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:33:08 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:33:08 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:33:08 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:33:08 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:33:08 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:33:08 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:33:08 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:33:08 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:33:08 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:33:09 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:13
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 13
+[26-Jul-2018 08:33:42 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:33:42 UTC] PHP Stack trace:
+[26-Jul-2018 08:33:42 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:33:42 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:33:42 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:33:42 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:33:42 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:33:42 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:33:42 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:33:42 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:33:42 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:33:42 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:33:42 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:33:42 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:34:35 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:13
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 13
+[26-Jul-2018 08:34:43 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:34:43 UTC] PHP Stack trace:
+[26-Jul-2018 08:34:43 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:34:43 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:34:43 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:34:43 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:34:43 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:34:43 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:34:43 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:34:43 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:34:43 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:34:43 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:34:43 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:34:43 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:34:59 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:47
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 47
+[26-Jul-2018 08:36:53 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:36:53 UTC] PHP Stack trace:
+[26-Jul-2018 08:36:53 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:36:53 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:36:53 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:36:53 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:36:53 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:36:53 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:36:53 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:36:53 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:36:53 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:36:53 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:36:53 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:36:53 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:37:24 UTC] PHP Notice:  Undefined variable: bulk in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 59
+[26-Jul-2018 08:37:24 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:24 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:37:24 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:37:24 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:37:24 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:37:24 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:37:24 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:37:24 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 08:37:24 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:24 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 08:37:24 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:24 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 08:37:24 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:24 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 08:37:24 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:24 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 08:37:37 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:37:37 UTC] PHP Stack trace:
+[26-Jul-2018 08:37:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:37:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:37:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:37:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:37:37 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:37:37 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:37:37 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:37:37 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:37:37 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:37:37 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:37:37 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:37:37 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:37:39 UTC] PHP Fatal error:  Uncaught Error: Class 'productManager' not found in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:56
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 56
+[26-Jul-2018 08:48:49 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 08:48:49 UTC] PHP Stack trace:
+[26-Jul-2018 08:48:49 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 08:48:49 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 08:48:49 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 08:48:49 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 08:48:49 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 08:48:49 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 08:48:49 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 08:48:49 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 08:48:49 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 08:48:49 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 08:48:49 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 08:48:49 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 08:49:00 UTC] PHP Fatal error:  Uncaught Error: Class 'productManager' not found in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:56
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#2 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#3 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#4 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#5 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#6 /var/www/html/forza/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#7 /var/www/html/forza/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#8 /var/www/html/forza/index.php(17): require('/var/www/html/f...')
+#9 {main}
+  thrown in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 56
+[26-Jul-2018 09:07:03 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:07:03 UTC] PHP Stack trace:
+[26-Jul-2018 09:07:03 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:07:03 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:07:03 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:07:03 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:07:03 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:07:03 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:07:03 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:07:03 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:07:03 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:07:03 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:07:03 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:07:03 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:07:03 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[26-Jul-2018 09:07:03 UTC] PHP Stack trace:
+[26-Jul-2018 09:07:03 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:07:03 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:07:03 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:07:03 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:07:03 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:07:03 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:07:03 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:07:03 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:07:03 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:07:03 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:08:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:08:46 UTC] PHP Stack trace:
+[26-Jul-2018 09:08:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:08:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:08:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:08:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:08:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:08:46 UTC] PHP Stack trace:
+[26-Jul-2018 09:08:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:08:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:08:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:08:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:08:46 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:08:46 UTC] PHP Stack trace:
+[26-Jul-2018 09:08:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:08:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:08:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:08:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:08:46 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:08:46 UTC] PHP Stack trace:
+[26-Jul-2018 09:08:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:08:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:08:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:08:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:08:46 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 09:08:59 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:08:59 UTC] PHP Stack trace:
+[26-Jul-2018 09:08:59 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:08:59 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:08:59 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:08:59 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:08:59 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:08:59 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:08:59 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:08:59 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:08:59 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:08:59 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:08:59 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:08:59 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:09:33 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:09:33 UTC] PHP Stack trace:
+[26-Jul-2018 09:09:33 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:09:33 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:09:33 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:09:33 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:09:33 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:09:33 UTC] PHP Stack trace:
+[26-Jul-2018 09:09:33 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:09:33 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:09:33 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:09:33 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:09:33 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:09:33 UTC] PHP Stack trace:
+[26-Jul-2018 09:09:33 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:09:33 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:09:33 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:09:33 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:09:33 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:09:33 UTC] PHP Stack trace:
+[26-Jul-2018 09:09:33 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:09:33 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:09:33 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:09:33 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:09:33 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 09:15:07 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:15:07 UTC] PHP Stack trace:
+[26-Jul-2018 09:15:07 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:15:07 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:15:07 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:15:07 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:15:07 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:15:07 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:15:07 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:15:07 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:15:07 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:15:07 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:15:07 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:15:07 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:15:07 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[26-Jul-2018 09:15:07 UTC] PHP Stack trace:
+[26-Jul-2018 09:15:07 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:15:07 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:15:07 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:15:07 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:15:07 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:15:07 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:15:07 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:15:07 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:15:07 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:15:07 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:16:12 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:12 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:12 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:12 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:12 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:12 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:12 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:16:12 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:12 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 09:16:15 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:16:15 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:15 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:15 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:15 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:15 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:15 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:16:15 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:16:15 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:16:15 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:16:15 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:16:15 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:16:15 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:16:15 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:16:25 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:25 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:25 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:25 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:25 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:25 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:25 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:25 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:25 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:25 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:25 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:25 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:25 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:16:25 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:25 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:25 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:25 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:25 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:25 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:16:25 UTC] PHP Stack trace:
+[26-Jul-2018 09:16:25 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:16:25 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:16:25 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:16:25 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:16:25 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 09:45:54 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:45:54 UTC] PHP Stack trace:
+[26-Jul-2018 09:45:54 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:45:54 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:45:54 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:45:54 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:45:54 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:45:54 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:45:54 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:45:54 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:45:54 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:45:54 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:45:54 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:45:54 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:45:55 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[26-Jul-2018 09:45:55 UTC] PHP Stack trace:
+[26-Jul-2018 09:45:55 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:45:55 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:45:55 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:45:55 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:45:55 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:45:55 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:45:55 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:45:55 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:45:55 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:45:55 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:46:21 UTC] PHP Warning:  fopen(wp-content/uploads/bulkfiles/466cc1ac-b096-4869-a405-3064b243808d): failed to open stream: Permission denied in /var/www/html/forza/wp-content/themes/forzatheme/includes/FileCache.php on line 10
+[26-Jul-2018 09:46:21 UTC] PHP Stack trace:
+[26-Jul-2018 09:46:21 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:46:21 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:46:21 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:46:21 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:46:21 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:46:21 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:46:21 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:46:21 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:46:21 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:46:21 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:46:21 UTC] PHP  11. ProductManager::GetBulk($productId = *uninitialized*, $bulkFileId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:57
+[26-Jul-2018 09:46:21 UTC] PHP  12. FileCache->store($key = *uninitialized*, $data = *uninitialized*, $ttl = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php:39
+[26-Jul-2018 09:46:21 UTC] PHP  13. fopen(*uninitialized*, *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/FileCache.php:10
+[26-Jul-2018 09:46:37 UTC] PHP Fatal error:  Uncaught Exception: Could not write to cache in /var/www/html/forza/wp-content/themes/forzatheme/includes/FileCache.php:11
+Stack trace:
+#0 /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php(39): FileCache->store('466cc1ac-b096-4...', Array, 86400)
+#1 /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php(57): ProductManager::GetBulk('466cc1ac-b096-4...', 'f5229b08-bbab-4...')
+#2 /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php(3): BulkHelper::GetBulkForUser(NULL, NULL, NULL)
+#3 /var/www/html/forza/wp-content/themes/forzatheme/header.php(104): require_once('/var/www/html/f...')
+#4 /var/www/html/forza/wp-includes/template.php(688): require_once('/var/www/html/f...')
+#5 /var/www/html/forza/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#6 /var/www/html/forza/wp-includes/general-template.php(41): locate_template(Array, true)
+#7 /var/www/html/forza/wp-content/themes/forzatheme/page-home.php(2): get_header()
+#8 /var/w in /var/www/html/forza/wp-content/themes/forzatheme/includes/FileCache.php on line 11
+[26-Jul-2018 09:47:11 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:47:11 UTC] PHP Stack trace:
+[26-Jul-2018 09:47:11 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:47:11 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:47:11 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:47:11 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:47:11 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:47:11 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:47:11 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:47:11 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:47:11 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:47:11 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:47:11 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:47:11 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:47:36 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:47:36 UTC] PHP Stack trace:
+[26-Jul-2018 09:47:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:47:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:47:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:47:36 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:47:36 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:47:36 UTC] PHP Stack trace:
+[26-Jul-2018 09:47:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:47:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:47:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:47:36 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:47:36 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:47:36 UTC] PHP Stack trace:
+[26-Jul-2018 09:47:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:47:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:47:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:47:36 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:47:36 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:47:36 UTC] PHP Stack trace:
+[26-Jul-2018 09:47:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:47:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:47:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:47:36 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:47:36 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 09:49:11 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 09:49:11 UTC] PHP Stack trace:
+[26-Jul-2018 09:49:11 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:49:11 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:49:11 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:49:11 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:49:11 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 09:49:11 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 09:49:11 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 09:49:11 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 09:49:11 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 09:49:11 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 09:49:11 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 09:49:11 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 09:49:34 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:49:34 UTC] PHP Stack trace:
+[26-Jul-2018 09:49:34 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:49:34 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:49:34 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:49:34 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:49:34 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:49:34 UTC] PHP Stack trace:
+[26-Jul-2018 09:49:34 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:49:34 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:49:34 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:49:34 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:49:34 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 09:49:34 UTC] PHP Stack trace:
+[26-Jul-2018 09:49:34 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:49:34 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:49:34 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:49:34 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:49:34 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 09:49:34 UTC] PHP Stack trace:
+[26-Jul-2018 09:49:34 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 09:49:34 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 09:49:34 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 09:49:34 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 09:49:34 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 11:09:26 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 11:09:26 UTC] PHP Stack trace:
+[26-Jul-2018 11:09:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:09:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:09:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:09:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:09:26 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:09:26 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:09:26 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:09:26 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:09:26 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 11:09:26 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 11:09:26 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 11:09:26 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 11:09:35 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:09:35 UTC] PHP Stack trace:
+[26-Jul-2018 11:09:35 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:09:35 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:09:35 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:09:35 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:09:35 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:09:35 UTC] PHP Stack trace:
+[26-Jul-2018 11:09:35 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:09:35 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:09:35 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:09:35 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:09:35 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:09:35 UTC] PHP Stack trace:
+[26-Jul-2018 11:09:35 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:09:35 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:09:35 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:09:35 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:09:35 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 11:09:35 UTC] PHP Stack trace:
+[26-Jul-2018 11:09:35 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:09:35 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:09:35 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:09:35 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:09:35 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 11:12:29 UTC] PHP Notice:  Undefined property: ProductRepository::$apiKey in /var/www/html/forza/api-client/ApiClient/core/repositories/ProductRepository.php on line 18
+[26-Jul-2018 11:12:29 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:29 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:29 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:29 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:12:29 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:12:29 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:12:29 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:12:29 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:12:29 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:12:29 UTC] PHP   9. require_once() /var/www/html/forza/wp-content/themes/forzatheme/header.php:104
+[26-Jul-2018 11:12:29 UTC] PHP  10. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/inc/calculator-home-page.php:3
+[26-Jul-2018 11:12:29 UTC] PHP  11. RelatedOfferManager::GetRelatedOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:9
+[26-Jul-2018 11:12:29 UTC] PHP  12. ProductRepository->getOffers($clientId = *uninitialized*, $url = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php:9
+[26-Jul-2018 11:12:37 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:12:37 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:12:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:12:37 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:12:37 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:12:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:12:37 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-home.php on line 93
+[26-Jul-2018 11:12:37 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:12:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:12:37 UTC] PHP Notice:  Undefined variable: string_whatsapp in /var/www/html/forza/wp-content/themes/forzatheme/inc/need-some-help-block-home.php on line 5
+[26-Jul-2018 11:12:37 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:12:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:12:37 UTC] PHP   5. require_once() /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:115
+[26-Jul-2018 11:12:45 UTC] PHP Warning:  require_once(/var/www/html/forza/wp-content/themes/forzatheme/api-client/ApiClient/vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[26-Jul-2018 11:12:45 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:45 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:45 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:45 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 11:12:45 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 11:12:45 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 11:12:45 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[26-Jul-2018 11:12:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/forza/wp-content/themes/forzatheme/api-client/ApiClient/vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 6
+[26-Jul-2018 11:12:45 UTC] PHP Stack trace:
+[26-Jul-2018 11:12:45 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:12:45 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:12:45 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 11:12:45 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 11:12:45 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 11:12:45 UTC] PHP   6. include() /var/www/html/forza/wp-settings.php:426
+[26-Jul-2018 11:19:08 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:19:08 UTC] PHP Stack trace:
+[26-Jul-2018 11:19:08 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:19:08 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:19:08 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:19:08 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:19:08 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:19:08 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:19:08 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:19:08 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:24:12 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:24:12 UTC] PHP Stack trace:
+[26-Jul-2018 11:24:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:24:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:24:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:24:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:24:12 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:24:12 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:24:12 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:24:12 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:38:23 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:38:23 UTC] PHP Stack trace:
+[26-Jul-2018 11:38:23 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:38:23 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:38:23 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:38:23 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:38:23 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:38:23 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:38:23 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:38:23 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:42:34 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:42:34 UTC] PHP Stack trace:
+[26-Jul-2018 11:42:34 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:42:34 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:42:34 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:42:34 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:42:34 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:42:34 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:42:34 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:42:34 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:43:11 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:43:11 UTC] PHP Stack trace:
+[26-Jul-2018 11:43:11 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:43:11 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:43:11 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:43:11 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:43:11 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:43:11 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:43:11 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:43:11 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:43:22 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/BulkHelper.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 160
+[26-Jul-2018 11:43:22 UTC] PHP Stack trace:
+[26-Jul-2018 11:43:22 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:43:22 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:43:22 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:43:22 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:43:22 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:43:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/BulkHelper.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 160
+[26-Jul-2018 11:43:22 UTC] PHP Stack trace:
+[26-Jul-2018 11:43:22 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:43:22 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:43:22 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:43:22 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:43:22 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:45:45 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:45:45 UTC] PHP Stack trace:
+[26-Jul-2018 11:45:45 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:45:45 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:45:45 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:45:45 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:45:45 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:45:45 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:45:45 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:45:45 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:45:51 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/BulkHelper.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 160
+[26-Jul-2018 11:45:51 UTC] PHP Stack trace:
+[26-Jul-2018 11:45:51 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:45:51 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:45:51 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:45:51 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:45:51 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:45:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/BulkHelper.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 160
+[26-Jul-2018 11:45:51 UTC] PHP Stack trace:
+[26-Jul-2018 11:45:51 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:45:51 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:45:51 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:45:51 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:45:51 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:48:23 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:48:23 UTC] PHP Stack trace:
+[26-Jul-2018 11:48:23 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:48:23 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:48:23 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:48:23 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:48:23 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:48:23 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:48:23 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:48:23 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:49:14 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/RelatedOfferManager.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:49:14 UTC] PHP Stack trace:
+[26-Jul-2018 11:49:14 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:49:14 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:49:14 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:49:14 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:49:14 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:49:14 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:49:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/RelatedOfferManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:49:14 UTC] PHP Stack trace:
+[26-Jul-2018 11:49:14 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:49:14 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:49:14 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:49:14 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:49:14 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:49:14 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:49:50 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:49:50 UTC] PHP Stack trace:
+[26-Jul-2018 11:49:50 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:49:50 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:49:50 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:49:50 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:49:50 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:49:50 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:49:50 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:49:50 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:50:40 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/RelatedOfferManager.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:50:40 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:40 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:50:40 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:50:40 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:50:40 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:50:40 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:50:40 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:50:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/RelatedOfferManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:50:40 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:40 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:50:40 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:50:40 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:50:40 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:50:40 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:50:40 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:50:45 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:50:45 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:45 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:50:45 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:50:45 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:50:45 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:50:45 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:50:45 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:50:45 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:50:45 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:50:51 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:50:51 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:51 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:50:51 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:50:51 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:50:51 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:50:51 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:50:51 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:50:51 UTC] PHP Warning:  require_once(http://localhost/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php): failed to open stream: no suitable wrapper could be found in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:50:51 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:51 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:50:51 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:50:51 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:50:51 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:50:51 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:50:51 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:50:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://localhost/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 8
+[26-Jul-2018 11:50:51 UTC] PHP Stack trace:
+[26-Jul-2018 11:50:51 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:50:51 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:50:51 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:50:51 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:50:51 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:50:51 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:53:24 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:53:24 UTC] PHP Stack trace:
+[26-Jul-2018 11:53:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:53:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:53:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:53:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:53:24 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:53:24 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:53:24 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:53:24 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:55:02 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[26-Jul-2018 11:55:02 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:02 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:55:02 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:55:02 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:55:02 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:55:02 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:55:02 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:55:02 UTC] PHP Warning:  require_once(http://localhost/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php): failed to open stream: no suitable wrapper could be found in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[26-Jul-2018 11:55:02 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:02 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:55:02 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:55:02 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:55:02 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:55:02 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:55:02 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:55:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://localhost/forza/wp-content/themes/forzatheme/includes/RelatedOfferManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[26-Jul-2018 11:55:02 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:02 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:55:02 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:55:02 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:55:02 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:55:02 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:55:02 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:161
+[26-Jul-2018 11:55:07 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:55:07 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:07 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:55:07 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:55:07 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:55:07 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:55:07 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:55:07 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:55:07 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:55:07 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:55:11 UTC] PHP Warning:  require_once(/var/www/html/forza/includes/RelatedOfferManager.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[26-Jul-2018 11:55:11 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:11 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:55:11 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:55:11 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:55:11 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:55:11 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:55:11 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:55:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/var/www/html/forza/includes/RelatedOfferManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 9
+[26-Jul-2018 11:55:11 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:11 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:55:11 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:55:11 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:55:11 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:55:11 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:55:11 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:55:48 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:55:48 UTC] PHP Stack trace:
+[26-Jul-2018 11:55:48 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:55:48 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:55:48 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:55:48 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:55:48 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:55:48 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:55:48 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:55:48 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:56:03 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/ProductManager.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 57
+[26-Jul-2018 11:56:03 UTC] PHP Stack trace:
+[26-Jul-2018 11:56:03 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:56:03 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:56:03 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:56:03 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:56:03 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:56:03 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:56:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/ProductManager.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php on line 57
+[26-Jul-2018 11:56:03 UTC] PHP Stack trace:
+[26-Jul-2018 11:56:03 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:56:03 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:56:03 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:56:03 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:56:03 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:56:03 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:56:25 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:56:25 UTC] PHP Stack trace:
+[26-Jul-2018 11:56:25 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:56:25 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:56:25 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:56:25 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:56:25 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:56:25 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:56:25 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:56:25 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 11:56:41 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/FileCache.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 18
+[26-Jul-2018 11:56:41 UTC] PHP Stack trace:
+[26-Jul-2018 11:56:41 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:56:41 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:56:41 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:56:41 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:56:41 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:56:41 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:56:41 UTC] PHP   7. ProductManager::GetBulk($productId = *uninitialized*, $bulkFileId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:58
+[26-Jul-2018 11:56:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/FileCache.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 18
+[26-Jul-2018 11:56:41 UTC] PHP Stack trace:
+[26-Jul-2018 11:56:41 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 11:56:41 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 11:56:41 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 11:56:41 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 11:56:41 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 11:56:41 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 11:56:41 UTC] PHP   7. ProductManager::GetBulk($productId = *uninitialized*, $bulkFileId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:58
+[26-Jul-2018 11:59:38 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 11:59:38 UTC] PHP Stack trace:
+[26-Jul-2018 11:59:38 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 11:59:38 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 11:59:38 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 11:59:38 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 11:59:38 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 11:59:38 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 11:59:38 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 11:59:38 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:00:25 UTC] PHP Warning:  require_once(wp-content/themes/forzatheme/includes/FileCache.php): failed to open stream: No such file or directory in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 18
+[26-Jul-2018 12:00:25 UTC] PHP Stack trace:
+[26-Jul-2018 12:00:25 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 12:00:25 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 12:00:25 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 12:00:25 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 12:00:25 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 12:00:25 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 12:00:25 UTC] PHP   7. ProductManager::GetBulk($productId = *uninitialized*, $bulkFileId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:58
+[26-Jul-2018 12:00:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'wp-content/themes/forzatheme/includes/FileCache.php' (include_path='.:/usr/share/php') in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 18
+[26-Jul-2018 12:00:25 UTC] PHP Stack trace:
+[26-Jul-2018 12:00:25 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 12:00:25 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 12:00:25 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 12:00:25 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 12:00:25 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 12:00:25 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 12:00:25 UTC] PHP   7. ProductManager::GetBulk($productId = *uninitialized*, $bulkFileId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/includes/BulkHelper.php:58
+[26-Jul-2018 12:00:29 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:00:29 UTC] PHP Stack trace:
+[26-Jul-2018 12:00:29 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:00:29 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:00:29 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:00:29 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:00:29 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:00:29 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:00:29 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:00:29 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:00:31 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[26-Jul-2018 12:00:31 UTC] PHP Stack trace:
+[26-Jul-2018 12:00:31 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[26-Jul-2018 12:00:31 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:114
+[26-Jul-2018 12:00:31 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[26-Jul-2018 12:00:31 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[26-Jul-2018 12:00:31 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[26-Jul-2018 12:00:31 UTC] PHP   6. BulkHelper::GetBulkForUser($productManager = *uninitialized*, $relatedOfferManager = *uninitialized*, $сlientId = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/functions.php:162
+[26-Jul-2018 12:44:30 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:44:30 UTC] PHP Stack trace:
+[26-Jul-2018 12:44:30 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:44:30 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:44:30 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:44:30 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:44:30 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:44:30 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:44:30 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:44:30 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:44:48 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:44:48 UTC] PHP Stack trace:
+[26-Jul-2018 12:44:48 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:44:48 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:44:48 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:44:48 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:44:48 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:44:48 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:44:48 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:44:48 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:45:49 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:45:49 UTC] PHP Stack trace:
+[26-Jul-2018 12:45:49 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:45:49 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:45:49 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:45:49 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:45:49 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:45:49 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:45:49 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:45:49 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:46:26 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:46:26 UTC] PHP Stack trace:
+[26-Jul-2018 12:46:26 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:46:26 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:46:26 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:46:26 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:46:26 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:46:26 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:46:26 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:46:26 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 12:47:21 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 12:47:21 UTC] PHP Stack trace:
+[26-Jul-2018 12:47:21 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 12:47:21 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 12:47:21 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 12:47:21 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 12:47:21 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 12:47:21 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 12:47:21 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 12:47:21 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 13:01:57 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 13:01:57 UTC] PHP Stack trace:
+[26-Jul-2018 13:01:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 13:01:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 13:01:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 13:01:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 13:01:57 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 13:01:57 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 13:01:57 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 13:01:57 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 13:02:35 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 13:02:35 UTC] PHP Stack trace:
+[26-Jul-2018 13:02:35 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 13:02:35 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 13:02:35 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 13:02:35 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 13:02:35 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 13:02:35 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 13:02:35 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 13:02:35 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 13:42:44 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 13:42:44 UTC] PHP Stack trace:
+[26-Jul-2018 13:42:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 13:42:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 13:42:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 13:42:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 13:42:44 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 13:42:44 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 13:42:44 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 13:42:44 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 13:43:08 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 13:43:08 UTC] PHP Stack trace:
+[26-Jul-2018 13:43:08 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 13:43:08 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 13:43:08 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 13:43:08 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 13:43:08 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 13:43:08 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 13:43:08 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 13:43:08 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:02:43 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:02:43 UTC] PHP Stack trace:
+[26-Jul-2018 14:02:43 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:02:43 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:02:43 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:02:43 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:02:43 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:02:43 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:02:43 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:02:43 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:03:43 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:03:43 UTC] PHP Stack trace:
+[26-Jul-2018 14:03:43 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:03:43 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:03:43 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:03:43 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:03:43 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:03:43 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:03:43 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:03:43 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:04:11 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:04:11 UTC] PHP Stack trace:
+[26-Jul-2018 14:04:11 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:04:11 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:04:11 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:04:11 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:04:11 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:04:11 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:04:11 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:04:11 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:04:56 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:04:56 UTC] PHP Stack trace:
+[26-Jul-2018 14:04:56 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:04:56 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:04:56 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:04:56 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:04:56 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:04:56 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:04:56 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:04:56 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:06:18 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:06:18 UTC] PHP Stack trace:
+[26-Jul-2018 14:06:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:06:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:06:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:06:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:06:18 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:06:18 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:06:18 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:06:18 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:22:14 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:22:14 UTC] PHP Stack trace:
+[26-Jul-2018 14:22:14 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:22:14 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:22:14 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:22:14 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:22:14 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:22:14 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:22:14 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:22:14 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:23:10 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:23:10 UTC] PHP Stack trace:
+[26-Jul-2018 14:23:10 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:23:10 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:23:10 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:23:10 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:23:10 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:23:10 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:23:10 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:23:10 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:24:12 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:24:12 UTC] PHP Stack trace:
+[26-Jul-2018 14:24:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:24:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:24:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:24:12 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:24:12 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:24:12 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:24:12 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:24:12 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:24:52 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:24:52 UTC] PHP Stack trace:
+[26-Jul-2018 14:24:52 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:24:52 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:24:52 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:24:52 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:24:52 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:24:52 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:24:52 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:24:52 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 14:25:24 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 14:25:24 UTC] PHP Stack trace:
+[26-Jul-2018 14:25:24 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 14:25:24 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 14:25:24 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 14:25:24 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 14:25:24 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 14:25:24 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 14:25:24 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 14:25:24 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 15:09:49 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 15:09:49 UTC] PHP Stack trace:
+[26-Jul-2018 15:09:49 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 15:09:49 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 15:09:49 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 15:09:49 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 15:09:49 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 15:09:49 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 15:09:49 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 15:09:49 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 15:11:36 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 15:11:36 UTC] PHP Stack trace:
+[26-Jul-2018 15:11:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 15:11:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 15:11:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 15:11:36 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 15:11:36 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 15:11:36 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 15:11:36 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 15:11:36 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 15:11:37 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 15:11:37 UTC] PHP Stack trace:
+[26-Jul-2018 15:11:37 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 15:11:37 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 15:11:37 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 15:11:37 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 15:11:37 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 15:11:37 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 15:11:37 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 15:11:37 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 16:50:46 UTC] PHP Notice:  Undefined variable: url in /var/www/html/forza/wp-content/themes/forzatheme/header.php on line 64
+[26-Jul-2018 16:50:46 UTC] PHP Stack trace:
+[26-Jul-2018 16:50:46 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 16:50:46 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 16:50:46 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[26-Jul-2018 16:50:46 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[26-Jul-2018 16:50:46 UTC] PHP   5. get_header($name = *uninitialized*) /var/www/html/forza/wp-content/themes/forzatheme/page-home.php:2
+[26-Jul-2018 16:50:46 UTC] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/general-template.php:41
+[26-Jul-2018 16:50:46 UTC] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /var/www/html/forza/wp-includes/template.php:647
+[26-Jul-2018 16:50:46 UTC] PHP   8. require_once() /var/www/html/forza/wp-includes/template.php:688
+[26-Jul-2018 16:56:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wordpressuser'@'localhost' (using password: YES) in /var/www/html/forza/wp-includes/wp-db.php on line 1531
+[26-Jul-2018 16:56:36 UTC] PHP Stack trace:
+[26-Jul-2018 16:56:36 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 16:56:36 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 16:56:36 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 16:56:36 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 16:56:36 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 16:56:36 UTC] PHP   6. require_wp_db() /var/www/html/forza/wp-settings.php:106
+[26-Jul-2018 16:56:36 UTC] PHP   7. wpdb->__construct($dbuser = *uninitialized*, $dbpassword = *uninitialized*, $dbname = *uninitialized*, $dbhost = *uninitialized*) /var/www/html/forza/wp-includes/load.php:404
+[26-Jul-2018 16:56:36 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:592
+[26-Jul-2018 16:56:36 UTC] PHP   9. mysqli_real_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:1531
+[26-Jul-2018 16:57:12 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'wordpressuser'@'localhost' (using password: YES) in /var/www/html/forza/wp-includes/wp-db.php on line 1531
+[26-Jul-2018 16:57:12 UTC] PHP Stack trace:
+[26-Jul-2018 16:57:12 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[26-Jul-2018 16:57:12 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[26-Jul-2018 16:57:12 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:13
+[26-Jul-2018 16:57:12 UTC] PHP   4. require_once() /var/www/html/forza/wp-load.php:37
+[26-Jul-2018 16:57:12 UTC] PHP   5. require_once() /var/www/html/forza/wp-config.php:90
+[26-Jul-2018 16:57:12 UTC] PHP   6. require_wp_db() /var/www/html/forza/wp-settings.php:106
+[26-Jul-2018 16:57:12 UTC] PHP   7. wpdb->__construct($dbuser = *uninitialized*, $dbpassword = *uninitialized*, $dbname = *uninitialized*, $dbhost = *uninitialized*) /var/www/html/forza/wp-includes/load.php:404
+[26-Jul-2018 16:57:12 UTC] PHP   8. wpdb->db_connect($allow_bail = *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:592
+[26-Jul-2018 16:57:12 UTC] PHP   9. mysqli_real_connect(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/forza/wp-includes/wp-db.php:1531
+[27-Jul-2018 06:58:49 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[27-Jul-2018 06:58:49 UTC] PHP Stack trace:
+[27-Jul-2018 06:58:49 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 06:58:49 UTC] PHP   2. do_action() /var/www/html/forza/wp-admin/admin-ajax.php:114
+[27-Jul-2018 06:58:49 UTC] PHP   3. WP_Hook->do_action() /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 06:58:49 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 06:58:49 UTC] PHP   5. get_bulk_ajax() /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 06:58:49 UTC] PHP   6. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:189
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:12:18 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:12:18 UTC] PHP Stack trace:
+[27-Jul-2018 07:12:18 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:12:18 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:12:18 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:12:18 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:16:06 UTC] Eroare bază de date WordPress Table 'wordpress.clients' doesn't exist pentru interogarea INSERT INTO clients (email, phone, password, client_id) VALUES ('ivanstroilov@gmail.com', '123123123', 'DKX2pP4mRxRtflTaxdr0/Q==', '822cf259-31fc-444a-9799-dc2d215ac3a0') efectuată de require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/forzatheme/page-apply.php')
+[27-Jul-2018 07:16:36 UTC] Eroare bază de date WordPress Table 'wordpress.clients' doesn't exist pentru interogarea SELECT * FROM clients WHERE email = 'ivanstroilov@gmail.com'; efectuată de require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/forzatheme/page-dashboard.php')
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:44 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:44 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:44 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:44 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:44 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:18:57 UTC] PHP Notice:  Undefined variable: img_size in /var/www/html/forza/wp-content/themes/forzatheme/page-how-to-apply.php on line 18
+[27-Jul-2018 07:18:57 UTC] PHP Stack trace:
+[27-Jul-2018 07:18:57 UTC] PHP   1. {main}() /var/www/html/forza/index.php:0
+[27-Jul-2018 07:18:57 UTC] PHP   2. require() /var/www/html/forza/index.php:17
+[27-Jul-2018 07:18:57 UTC] PHP   3. require_once() /var/www/html/forza/wp-blog-header.php:19
+[27-Jul-2018 07:18:57 UTC] PHP   4. include() /var/www/html/forza/wp-includes/template-loader.php:74
+[27-Jul-2018 07:22:44 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:22:44 UTC] PHP Stack trace:
+[27-Jul-2018 07:22:44 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:22:44 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:22:44 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:22:44 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:22:44 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:25:04 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:25:04 UTC] PHP Stack trace:
+[27-Jul-2018 07:25:04 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:25:04 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:25:04 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:25:04 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:25:04 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:26:45 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:26:45 UTC] PHP Stack trace:
+[27-Jul-2018 07:26:45 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:26:45 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:26:45 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:26:45 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:26:45 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[27-Jul-2018 07:26:54 UTC] PHP Notice:  Undefined variable: _SESSION in /var/www/html/forza/wp-content/themes/forzatheme/functions.php on line 185
+[27-Jul-2018 07:26:54 UTC] PHP Stack trace:
+[27-Jul-2018 07:26:54 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[27-Jul-2018 07:26:54 UTC] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /var/www/html/forza/wp-admin/admin-ajax.php:99
+[27-Jul-2018 07:26:54 UTC] PHP   3. WP_Hook->do_action($args = *uninitialized*) /var/www/html/forza/wp-includes/plugin.php:453
+[27-Jul-2018 07:26:54 UTC] PHP   4. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[27-Jul-2018 07:26:54 UTC] PHP   5. get_bulk_ajax(*uninitialized*) /var/www/html/forza/wp-includes/class-wp-hook.php:286

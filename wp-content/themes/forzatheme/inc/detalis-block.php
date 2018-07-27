@@ -30,7 +30,7 @@
 									<s class="grey p14 strike"><? echo __( 'Interest', 'forzatheme' ); ?> 10%</s>
 								</div>
 								<div class="ml-auto text-right">
-									<s class="grey p14 strike"><span class="loan-interest-display">0.00</span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
+									<s class="grey p14 strike"><span class="loan-interest-display"><? if( isset( $_POST['InterestAmount']) ):?>  <? echo $_POST['InterestAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
 								</div>
 							</div>
 
@@ -39,7 +39,7 @@
 									<s class="grey p14 strike">Fee</s>
 								</div>
 								<div class="ml-auto text-right">
-									<s class="grey p14 strike"><span class="loan-fee-display">0.00</span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
+									<s class="grey p14 strike"><span class="loan-fee-display"><? if( isset( $_POST['FeeAmount']) ):?>  <? echo $_POST['FeeAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
 								</div>
 							</div>
 
@@ -48,7 +48,7 @@
 									<span class="grey p14"><? echo __( 'APR', 'forzatheme' ); ?></span>
 								</div>
 								<div class="ml-auto text-right">
-									<span class="grey p14"><span class="loan-apr-display">0</span> %</span>
+									<span class="grey p14"><span class="loan-apr-display"><? if( isset( $_POST['Apr']) ):?>  <? echo $_POST['Apr']; ?> <? else: ?> 0 <? endif; ?></span> %</span>
 								</div>
 							</div>
                             <? if(is_page(39)):?>
@@ -70,7 +70,7 @@
 									<span class="grey p14 bold"><? echo __( 'Repayment Date', 'forzatheme' ); ?></span>
 								</div>
 								<div class="ml-auto text-right">
-									<span class="grey p14 bold loan-date-display">30 <? echo __( 'March', 'forzatheme' ); ?></span>
+									<span class="grey p14 bold loan-date-display"><? echo $_POST['RepaymentDay']; ?> <? echo $_POST['RepaymentMonth']; ?></span>
 								</div>
 							</div>
 							<div class="d-flex">
@@ -78,7 +78,7 @@
 									<span class="grey p14 bold"><? echo __( 'Repayment Total', 'forzatheme' ); ?></span>
 								</div>
 								<div class="ml-auto text-right">
-									<span class="grey p14 bold" id="rpa"><span class="loan-repayment-display">6,000</span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
+									<span class="grey p14 bold" id="rpa"><span class="loan-repayment-display"><? echo $_POST['AmountToPay']; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 						</div><!--End Loan Details-->

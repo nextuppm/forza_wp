@@ -6,6 +6,17 @@ $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
 ?>
 					<form method="POST" action="<? echo $url;?>apply/"> 67765
+                        <input name="ProductId" id="ProductId" val="" type="hidden">
+                        <input name="SpecOfferId" id="SpecOfferId" val="" type="hidden">
+                        <input name="AmountToPay" id="AmountToPay" val="" type="hidden">
+                        <input name="Apr" id="Apr" val="" type="hidden">
+                        <input name="FeeAmount" id="FeeAmount" val="" type="hidden">
+                        <input name="InterestAmount" id="InterestAmount" val="" type="hidden">
+                        <input name="RepaymentDate" id="RepaymentDate" val="" type="hidden">
+                        <input name="RepaymentDay" id="RepaymentDay" val="" type="hidden">
+                        <input name="RepaymentMonth" id="RepaymentMonth" val="" type="hidden">
+                        <input name="Amount" id="Amount" val="" type="hidden">
+                        <input name="Term" id="Term" val="" type="hidden">
 						<div class="box calculator-box">
 							<div class="calculator-box-header">
 								<h3 class="extra-bold"><? echo __('Get your first loan free!', 'forzatheme' ); ?></h3>
@@ -68,7 +79,7 @@ $url          = home_url( '/' );
 										<s class="grey p14 strike"><? echo __('Interest', 'forzatheme' ); ?> 10%</s>
 									</div>
 									<div class="ml-auto text-right">
-										<s class="grey p14 strike"><span class="loan-interest-display">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
+										<s class="grey p14 strike"><span class="loan-interest-display" id="InterestAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
 									</div>
 								</div>
 
@@ -77,7 +88,7 @@ $url          = home_url( '/' );
 										<s class="grey p14 strike"><? echo __('Fee', 'forzatheme' ); ?></s>
 									</div>
 									<div class="ml-auto text-right">
-										<s class="grey p14 strike"><span class="loan-fee-display">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
+										<s class="grey p14 strike"><span class="loan-fee-display" id="FeeAmountspan">0.00</span> <? echo __('MKD', 'forzatheme' ); ?></s>
 									</div>
 								</div>
 
@@ -86,7 +97,7 @@ $url          = home_url( '/' );
 										<span class="grey p14"><? echo __('APR', 'forzatheme' ); ?></span>
 									</div>
 									<div class="ml-auto text-right">
-										<span class="grey p14"><span class="loan-apr-display">0</span> %</span>
+										<span class="grey p14"><span class="loan-apr-display" id="Aprspan">0</span> %</span>
 									</div>
 								</div>
 
@@ -104,7 +115,7 @@ $url          = home_url( '/' );
 										<span class="grey p14 bold"><? echo __('You will repay', 'forzatheme' ); ?></span>
 									</div>
 									<div class="ml-auto text-right">
-										<span class="loan-amount-display slider-value-amount">190</span> <span class="slider-value-unit"><? echo __('MKD', 'forzatheme' ); ?></span>
+										<span class="loan-amount-display slider-value-amount" id="AmountToPayspan">190</span> <span class="slider-value-unit"><? echo __('MKD', 'forzatheme' ); ?></span>
 									</div>
 								</div>
 							</div>
