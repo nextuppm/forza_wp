@@ -11,8 +11,7 @@ $u_loan_amount_to_pay   = $_POST["AmountToPay"];
 $u_loan_apr             = $_POST["Apr"];
 $u_loan_fee_amount      = $_POST["FeeAmount"];
 $u_loan_interest_amount = $_POST["InterestAmount"];
-$u_loan_due_date        = $_POST["DueDate"]; //30.12.2018 00:00:00
-
+$u_loan_due_date        = $_POST["DateDue"];
 
 $u_first_name          = $_POST["first_name"];
 $u_last_name           = $_POST["last_name"];
