@@ -117,7 +117,7 @@ $url          = home_url( '/' );
 					<!--form action="<? //echo $url;?>success/" method="POST" id="application-form-step2"-->
                     <input  name="loan_amount" id="loan_amount" type="hidden" value="<? echo $_POST['loan_amount']; ?>" >
                     <input  name="loan_days" id="loan_days" type="hidden" value="<? echo $_POST['loan_days']; ?>" >
-
+                    
                     <input name="ProductId" id="ProductId" value="<? echo $_POST['ProductId']; ?>" type="hidden">
                     <input name="SpecOfferId" id="SpecOfferId" value="<? echo $_POST['SpecOfferId']; ?>" type="hidden">
                     <input name="AmountToPay" id="AmountToPay" value="<? echo $_POST['AmountToPay']; ?>" type="hidden">
@@ -129,6 +129,7 @@ $url          = home_url( '/' );
                     <input name="RepaymentMonth" id="RepaymentMonth" value="<? echo $_POST['RepaymentMonth']; ?>" type="hidden">
                     <input name="Amount" id="Amount" value="<? echo $_POST['Amount']; ?>" type="hidden">
                     <input name="Term" id="Term" value="<? echo $_POST['Term']; ?>" type="hidden">
+                    <input name="DateDue" id="DateDue" value="<? echo $_POST['DateDue']; ?>" type="hidden">
 
 						<div class="row">
 							<div class="col-xl-6">

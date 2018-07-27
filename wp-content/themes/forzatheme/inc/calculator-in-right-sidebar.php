@@ -6,17 +6,18 @@ $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
 ?>
 					<form method="POST" action="<? echo $url;?>apply/"> 67765
-                        <input name="ProductId" id="ProductId" val="" type="hidden">
-                        <input name="SpecOfferId" id="SpecOfferId" val="" type="hidden">
-                        <input name="AmountToPay" id="AmountToPay" val="" type="hidden">
-                        <input name="Apr" id="Apr" val="" type="hidden">
-                        <input name="FeeAmount" id="FeeAmount" val="" type="hidden">
-                        <input name="InterestAmount" id="InterestAmount" val="" type="hidden">
-                        <input name="RepaymentDate" id="RepaymentDate" val="" type="hidden">
-                        <input name="RepaymentDay" id="RepaymentDay" val="" type="hidden">
-                        <input name="RepaymentMonth" id="RepaymentMonth" val="" type="hidden">
-                        <input name="Amount" id="Amount" val="" type="hidden">
-                        <input name="Term" id="Term" val="" type="hidden">
+                        <input name="ProductId" id="ProductId" value="" type="hidden">
+                        <input name="SpecOfferId" id="SpecOfferId" value="" type="hidden">
+                        <input name="AmountToPay" id="AmountToPay" value="" type="hidden">
+                        <input name="Apr" id="Apr" value="" type="hidden">
+                        <input name="FeeAmount" id="FeeAmount" value="" type="hidden">
+                        <input name="InterestAmount" id="InterestAmount" value="" type="hidden">
+                        <input name="RepaymentDate" id="RepaymentDate" value="" type="hidden">
+                        <input name="RepaymentDay" id="RepaymentDay" value="" type="hidden">
+                        <input name="RepaymentMonth" id="RepaymentMonth" value="" type="hidden">
+                        <input name="Amount" id="Amount" value="" type="hidden">
+                        <input name="Term" id="Term" value="" type="hidden">
+                        <input name="DateDue" id="DateDue" value="" type="hidden">
 						<div class="box calculator-box">
 							<div class="calculator-box-header">
 								<h3 class="extra-bold"><? echo __('Get your first loan free!', 'forzatheme' ); ?></h3>
