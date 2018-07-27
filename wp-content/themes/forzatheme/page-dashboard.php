@@ -1,7 +1,6 @@
 <?  /* Template Name: page-dashboard.php */
 get_header();
 $url                = home_url( '/' );
-    //TODO удалить это. Перенесено в page-login.php
 	if (isset($_POST['login'])){
 		$login = $_POST['login'];
 		$password = $_POST['password'];
@@ -46,7 +45,7 @@ $url                = home_url( '/' );
 
 	<section class="bump-bottom-md">
 		<div class="container">
-			<? if ($_SESSION['crm_client'] == null):?>
+			<? if (isset($_SESSION['crm_client']) == null):?>
 					 <? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 			<?else:?>
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Firstname : '';?> <? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Lastname : '';?> !</h1>
@@ -127,6 +126,30 @@ $url                = home_url( '/' );
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
+<span id="clickme">clickme</span>
+<script>
+		function TestAction() {
+			   $.ajax({
+					type 		  : 'POST',
+					url 		  : ajaxdata.url,
+					data : {
+						action         : 'test_action',
+						mytestdata     : '555'
+					},
+					dataType 	  : 'json',
+				})
+				  .done(function(data) {
+					 console.log(data);
+					})
+				  .fail(function(data) {
+						// console.log(data);
+					});
+		}
+
+$( "#clickme" ).click(function() {
+  TestAction();
+});
+</script>
    <? require_once(TEMPLATEPATH . '/inc/need-some-help-block.php'); ?>
    <? require_once(TEMPLATEPATH . '/inc/did-you-know-block.php'); ?>
 <?php get_footer();?>

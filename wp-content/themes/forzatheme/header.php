@@ -144,10 +144,10 @@ $n_row              = $rows[$curdatenum-1];
 							</li>
 							<li><a href="<? echo $url;?>start/" class="btn btn-cta apply-button" id="apply-button-menu"><? echo __('Apply Now', 'forzatheme' ); ?></a></li>
 
-							<? if(isset($_SESSION['crm_client'])) :?>
-								  <li><a href="<? echo $url;?>dashboard/" class="btn btn-green"><? echo __( 'Personal Cabinet', 'forzatheme' ); ?></a></li>
-							<? else:?>
+							<? if (isset($_SESSION['crm_client']) == null):?>
 								  <li><a href="#" class="btn btn-green" data-toggle="modal" data-target="#login-modal"><? echo __( 'Login', 'forzatheme' ); ?></a></li>
+							<? else:?>
+								 <li><a href="<? echo $url;?>dashboard/" class="btn btn-green"><? echo __( 'Personal Cabinet', 'forzatheme' ); ?></a></li>
 							<? endif;?>
 
 						</ul>

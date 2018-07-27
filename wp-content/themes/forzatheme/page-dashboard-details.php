@@ -3,7 +3,7 @@ get_header();
 $url                = home_url( '/' );
 ?>
 
-	<? if ($_SESSION['crm_client'] == null):?>
+	<? if (isset($_SESSION['crm_client']) == null):?>
 			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 	<?else:?>
 <?

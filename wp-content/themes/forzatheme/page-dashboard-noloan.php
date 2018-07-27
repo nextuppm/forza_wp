@@ -3,16 +3,13 @@ get_header();
 $url                = home_url( '/' );
 ?>
 
-	<? if ($_SESSION['crm_client'] == null):?>
+	<? if (isset($_SESSION['crm_client']) == null):?>
 			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 	<?else:?>
 
 	<section class="bump-bottom-md">
 		<div class="container">
-				<? $client_id = get_client_id($userid);?>
-				<? if ($client_id == false):?>
-					    клиент НЕ существует или не авторизован
-				<?else:?>
+
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>, <? echo $u_fname;?> <? echo $u_lname;?>!</h1>
 
 			<div class="row">

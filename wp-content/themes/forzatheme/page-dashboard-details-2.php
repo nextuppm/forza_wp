@@ -3,7 +3,7 @@ get_header();
 $url                = home_url( '/' );
 ?>
 
-	<? if ($_SESSION['crm_client'] == null):?>
+	<? if (isset($_SESSION['crm_client']) == null):?>
 			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 	<?else:?>
 
@@ -12,10 +12,7 @@ $url                = home_url( '/' );
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Your Details', 'forzatheme' ); ?></h1>
 
 			<div class="row">
-				<? $client_id = get_client_id($userid);?>
-				<? if ($client_id == false):?>
-					    клиент НЕ существует или не авторизован
-				<?else:?>
+
 				<div class="col-lg-4 col-xl-3 bump-bottom-sm">
                    <? require_once(TEMPLATEPATH . '/inc/account-box.php'); ?>
 				</div><!--End Col 3-->

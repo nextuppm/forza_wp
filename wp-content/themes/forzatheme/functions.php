@@ -14,7 +14,7 @@
 			$clientinfo            = $client->getClientRepository()->getById($userid);
 			return $clientinfo;
 	}
-    
+
     function offerinfo($clientId, $url) {
 			$client                = new ApiClient();
 			$offerinfo            = $client->getProductRepository()->getOffers($clientId, $url);
@@ -72,48 +72,48 @@
 
 
 
- function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date) {
-    $client                   = new ApiClient();
-    $loan_id                  = $client->getLoanApplicationRepository()->create(
-		[
-			"ClientID"        => $client_id,
-			//"SigningMethodID" => Constants::CONSTANTS['SigningMethod']['PersonalSigning'], //наверное, это тут не нужно.
-			"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
-			"ProductID"       => $product_id,
-			"Parameters"      => [
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
-					"LoanApplicationParameterValue" => $amount,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
-					"LoanApplicationParameterValue" => $days,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'],
-					"LoanApplicationParameterValue" => $due_date, //"30.12.2018 00:00:00"
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
-					"LoanApplicationParameterValue" => $interest_amount,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
-					"LoanApplicationParameterValue" => $fee_amount,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
-					"LoanApplicationParameterValue" => $amount_to_pay,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
-					"LoanApplicationParameterValue" => $apr,
-				],
+	function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date, $spec_offer_id) {
+		$client                   = new ApiClient();
+		$loan_id                  = $client->getLoanApplicationRepository()->create(
+			[
+				"ClientID"        => $client_id,
+				"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
+				"ProductID"       => $product_id,
+				"SpecOfferId" => $spec_offer_id,
+				"Parameters"      => [
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
+						"LoanApplicationParameterValue" => $amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
+						"LoanApplicationParameterValue" => $days,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'],
+						"LoanApplicationParameterValue" => $due_date, //"30.12.2018 00:00:00"
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
+						"LoanApplicationParameterValue" => $interest_amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
+						"LoanApplicationParameterValue" => $fee_amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
+						"LoanApplicationParameterValue" => $amount_to_pay,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
+						"LoanApplicationParameterValue" => $apr,
+					],
+				]
 			]
-		]
-	);
-	return $loan_id;
-  }
+		);
+		return $loan_id;
+	}
 
 
     remove_action( 'wp_head', 'feed_links_extra', 3 );
@@ -153,6 +153,9 @@ function my_scripts_method() {
 	wp_deregister_script( 'jquery-core' );
 	wp_register_script( 'jquery-core', '//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js' , array(), null, true);
 	wp_enqueue_script( 'jquery' );
+
+	wp_localize_script( 'jquery', 'ajaxdata', array(	'url' => admin_url('admin-ajax.php')));
+
 }
 
 function wpb_widgets_init() {
@@ -190,7 +193,7 @@ function get_bulk_ajax() {
     }
     $data = BulkHelper::GetBulkForUser(null,null,$client_id);
 	echo json_encode($data);
-	die(); 
+	die();
 }
 
 function fs_get_wp_config_path()
@@ -299,3 +302,306 @@ function start_lvl( &$output, $depth = 0, $args = Array() ) {
     $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args, $id );
 }
 } //End Walker_Nav_Menu
+
+
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_site-options',
+		'title' => 'Site Options',
+		'fields' => array (
+			array (
+				'key' => 'field_5b5b07dacd73c',
+				'label' => 'cacheExperation',
+				'name' => 'cacheexperation',
+				'type' => 'number',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'min' => '',
+				'max' => '',
+				'step' => '',
+			),
+			array (
+				'key' => 'field_5b4ca22a3b7ef',
+				'label' => 'Top logo',
+				'name' => 'top_logo',
+				'type' => 'image',
+				'save_format' => 'id',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_5b4ca2393b7f0',
+				'label' => 'Bottom logo',
+				'name' => 'bottom_logo',
+				'type' => 'image',
+				'save_format' => 'id',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_5b4ca2d13b7f4',
+				'label' => 'Call Us',
+				'name' => '',
+				'type' => 'message',
+				'message' => '',
+			),
+			array (
+				'key' => 'field_5b4ca25e3b7f1',
+				'label' => 'Contact phone',
+				'name' => 'contact_phone',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4ca2693b7f2',
+				'label' => 'Contact WhatsApp',
+				'name' => 'contact_whatsapp',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4ca2dc3b7f5',
+				'label' => 'Office Hours',
+				'name' => '',
+				'type' => 'message',
+				'message' => '',
+			),
+			array (
+				'key' => 'field_5b4ca3133b7f7',
+				'label' => 'Mon-Fr',
+				'name' => 'contact_mon-fr',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4ca32c3b7f8',
+				'label' => 'Sat',
+				'name' => 'contact_sat',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4ca2f83b7f6',
+				'label' => 'Get in Touch',
+				'name' => '',
+				'type' => 'message',
+				'message' => '',
+			),
+			array (
+				'key' => 'field_5b4ca2ba3b7f3',
+				'label' => 'Contact email',
+				'name' => 'contact_email',
+				'type' => 'email',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+			),
+			array (
+				'key' => 'field_5b4ca34d3b7f9',
+				'label' => 'Office Hours modal',
+				'name' => 'office_hours_modal',
+				'type' => 'repeater',
+				'sub_fields' => array (
+					array (
+						'key' => 'field_5b4ca3793b7fb',
+						'label' => 'Day',
+						'name' => 'office_hours_modal_day',
+						'type' => 'text',
+						'column_width' => 50,
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'html',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_5b4ca3893b7fc',
+						'label' => 'Hours open',
+						'name' => 'office_hours_modal_hours',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'html',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_5b4eff9156317',
+						'label' => 'Hours close',
+						'name' => 'office_hours_modal_close',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'html',
+						'maxlength' => '',
+					),
+				),
+				'row_min' => '',
+				'row_limit' => 7,
+				'layout' => 'table',
+				'button_label' => 'Add day',
+			),
+			array (
+				'key' => 'field_5b4f0e5bc232a',
+				'label' => 'Need some help block',
+				'name' => '',
+				'type' => 'tab',
+			),
+			array (
+				'key' => 'field_5b4f0e9bc232b',
+				'label' => 'Need some help block title',
+				'name' => 'need_some_help_block_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4f0eb8c232c',
+				'label' => 'Need some help block text',
+				'name' => 'need_some_help_text',
+				'type' => 'textarea',
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => 3,
+				'formatting' => 'html',
+			),
+			array (
+				'key' => 'field_5b4f0efbc232e',
+				'label' => 'Did you know block',
+				'name' => '',
+				'type' => 'tab',
+			),
+			array (
+				'key' => 'field_5b4f0f12c232f',
+				'label' => 'Did you know block title',
+				'name' => 'did_you_know_block_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4f0f24c2330',
+				'label' => 'Did you know block text',
+				'name' => 'did_you_know_block_text',
+				'type' => 'textarea',
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => 3,
+				'formatting' => 'html',
+			),
+			array (
+				'key' => 'field_5b4f0fe3c2334',
+				'label' => 'Did you know block button code',
+				'name' => 'did_you_know_block_button_code',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_5b4f0f35c2331',
+				'label' => 'Did you know block background image',
+				'name' => 'did_you_know_block_background_image',
+				'type' => 'image',
+				'save_format' => 'id',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_5b4f0f60c2332',
+				'label' => 'Did you know block left imgs',
+				'name' => 'did_you_know_block_left_imgs',
+				'type' => 'repeater',
+				'sub_fields' => array (
+					array (
+						'key' => 'field_5b4f0fa8c2333',
+						'label' => 'Did you know block left img',
+						'name' => 'did_you_know_block_left_img',
+						'type' => 'image',
+						'column_width' => '',
+						'save_format' => 'id',
+						'preview_size' => 'medium',
+						'library' => 'all',
+					),
+				),
+				'row_min' => '',
+				'row_limit' => 2,
+				'layout' => 'row',
+				'button_label' => 'Add img',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'options_page',
+					'operator' => '==',
+					'value' => 'acf-options',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
+add_action( 'wp_ajax_nopriv_test_action', 'test_action' );
+add_action('wp_ajax_test_action', 'test_action');
+	function test_action() {
+       $data       = array();
+       echo $myjsons     = $_POST['mytestdata'];
+
+
+
+	   die(); // умрем еще раз на всяк случ
+}

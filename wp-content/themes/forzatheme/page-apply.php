@@ -6,7 +6,7 @@ $url = home_url( '/' );
 $u_loan_amount          = (int)str_replace(',', '', $_POST["loan_amount"]);
 $u_loan_days            = (int)$_POST["loan_days"];
 $u_loan_product_id      = $_POST["ProductId"];
-$u_loan_spec_offer_id   = $_POST["SpecOfferId"]; //Куда это?
+$u_loan_spec_offer_id   = $_POST["SpecOfferId"];
 $u_loan_amount_to_pay   = $_POST["AmountToPay"];
 $u_loan_apr             = $_POST["Apr"];
 $u_loan_fee_amount      = $_POST["FeeAmount"];
@@ -51,7 +51,8 @@ else{
 				$u_loan_apr,
 				$u_loan_fee_amount,
 				$u_loan_interest_amount,
-				$u_loan_due_date
+				$u_loan_due_date,
+				$u_loan_spec_offer_id
         );
 
         echo '<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_id.'");</script>';
