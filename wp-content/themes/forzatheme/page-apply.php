@@ -224,7 +224,7 @@ if(isset($_SESSION['crm_client']) && !empty($_SESSION['crm_client']->ClientID)){
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
-                                        <input  class="form-control" name="pass_confirmation" id="password"  placeholder="***********"
+                                        <input type="password" class="form-control" name="pass_confirmation" id="password"  placeholder="***********"
                                                data-validation="length"
                                                data-validation-length="min8"
                                                data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
@@ -235,7 +235,7 @@ if(isset($_SESSION['crm_client']) && !empty($_SESSION['crm_client']->ClientID)){
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="last_name"><? echo __( 'Confirm Password', 'forzatheme' ); ?></label>
-                                        <input  class="form-control" name="pass" id="confirm_password" placeholder="***********"
+                                        <input type="password" class="form-control" name="pass" id="confirm_password" placeholder="***********"
                                                data-validation="confirmation"
                                                data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
