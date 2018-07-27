@@ -14,7 +14,7 @@
 			$clientinfo            = $client->getClientRepository()->getById($userid);
 			return $clientinfo;
 	}
-    
+
     function offerinfo($clientId, $url) {
 			$client                = new ApiClient();
 			$offerinfo            = $client->getProductRepository()->getOffers($clientId, $url);
@@ -72,14 +72,14 @@
 
 
 
- function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date) {
+ function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date, $spec_offer_id) {
     $client                   = new ApiClient();
     $loan_id                  = $client->getLoanApplicationRepository()->create(
 		[
 			"ClientID"        => $client_id,
-			//"SigningMethodID" => Constants::CONSTANTS['SigningMethod']['PersonalSigning'], //наверное, это тут не нужно.
 			"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
 			"ProductID"       => $product_id,
+			"SpecOfferId" => $spec_offer_id,
 			"Parameters"      => [
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
@@ -190,7 +190,7 @@ function get_bulk_ajax() {
     }
     $data = BulkHelper::GetBulkForUser(null,null,$client_id);
 	echo json_encode($data);
-	die(); 
+	die();
 }
 
 function fs_get_wp_config_path()
