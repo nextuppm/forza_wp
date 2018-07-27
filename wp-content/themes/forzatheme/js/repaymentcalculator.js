@@ -142,7 +142,7 @@ $(function(){
     
     $.ajax({
         type 	  : 'POST',
-        url       : 'wp-admin/admin-ajax.php',
+        url       : ajaxdata.url,
         data : {
                 action    : 'get_bulk_ajax',
                 oblastid  : '22'

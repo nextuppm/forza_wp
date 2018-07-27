@@ -5,7 +5,7 @@ $min_days     = get_field('min_days',     'option');
 $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
 ?>
-					<form method="POST" action="<? echo $url;?>apply/"> 67765
+					<form method="POST" action="<? echo $url;?>apply/"> 
                         <input name="ProductId" id="ProductId" value="" type="hidden">
                         <input name="SpecOfferId" id="SpecOfferId" value="" type="hidden">
                         <input name="AmountToPay" id="AmountToPay" value="" type="hidden">
