@@ -39,12 +39,14 @@ $url                = home_url( '/' );
 		}
 	}
 
+
+// $_SESSION['crm_client']->ClientID;
 ?>
 
 	<section class="bump-bottom-md">
 		<div class="container">
 			<? if ($_SESSION['crm_client'] == null):?>
-					клиент НЕ существует или не авторизован
+					 <? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
 			<?else:?>
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Welcome', 'forzatheme' ); ?>,<? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Firstname : '';?> <? echo $_SESSION['crm_client'] != null ? $_SESSION['crm_client']->Lastname : '';?> !</h1>
 

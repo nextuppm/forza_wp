@@ -2,17 +2,17 @@
 <? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
-$url                = home_url( '/' );
-$u_loan_amount   = (int)str_replace(',', '', $_POST["loan_amount"]);
-$u_loan_days     = (int)$_POST["loan_days"];
-$u_first_name    = $_POST["first_name"];
-$u_last_name     = $_POST["last_name"];
-$u_jmbg          = $_POST["jmbg"];
-$u_private_card  = $_POST["private_card"];
-$u_phone         = str_replace(['(', ')', '-', ' '], ['', '', '', ''], $_POST["phone"]);
-$u_email         = $_POST["email"];
-$user_password      = $_POST["password"];
-$user_confirm_password = $_POST["confirm_password"]; //TODO нужна валидация соответствия пролей на фронте!
+$url                   = home_url( '/' );
+$u_loan_amount         = (int)str_replace(',', '', $_POST["loan_amount"]);
+$u_loan_days           = (int)$_POST["loan_days"];
+$u_first_name          = $_POST["first_name"];
+$u_last_name           = $_POST["last_name"];
+$u_jmbg                = $_POST["jmbg"];
+$u_private_card        = $_POST["private_card"];
+$u_phone               = str_replace(['(', ')', '-', ' '], ['', '', '', ''], $_POST["phone"]);
+$u_email               = $_POST["email"];
+$user_password         = $_POST["pass_confirmation"];
+$user_confirm_password = $_POST["pass"];
 
 
 $existingClients = $client->getClientRepository()->search([
@@ -21,7 +21,8 @@ $existingClients = $client->getClientRepository()->search([
 ]);
 
 if(count($existingClients) > 0){
-	//TODO Клиент уже существует. Заставляем авторизоваться - редирект на авторизацию.
+	header('HTTP/1.1 200 OK');
+    header('Location: '.$url.'log-in/');
 	die("Клиент с JMBG " . $u_jmbg . " уже существует");
 }
 else{
@@ -36,12 +37,13 @@ else{
 		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
 		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
 
+        echo'<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_application->AppNumber.'");</script>';
 
 		//FIXME заменить на адекватный редирект. Можно засунуть в url loanId, а на success странице по нему достать инфу через api.
-		echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
-				"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
-				"</form>".
-				"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
+		//echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
+				//"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
+				//"</form>".
+				//"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
 	}
 }
 
@@ -91,8 +93,8 @@ $url          = home_url( '/' );
 							</div>
 						</div><!--End Col 4-->
 					</div><!--End Row-->
-<form action=""  method="POST" id="application-form-step2">
-					<!--form action="<? echo $url;?>success/" method="POST" id="application-form-step2"-->
+                   <form action=""  method="POST" id="application-form-step2">
+					<!--form action="<? //echo $url;?>success/" method="POST" id="application-form-step2"-->
                     <input  name="loan_amount" id="loan_amount" type="hidden" value="<? echo $_POST['loan_amount']; ?>" >
                     <input  name="loan_days" id="loan_days" type="hidden" value="<? echo $_POST['loan_days']; ?>" >
 
@@ -143,7 +145,7 @@ $url          = home_url( '/' );
 							</div><!--End Col 6-->
 						</div><!--End Row-->
 
-						<div class="row">
+						  <div class="row">
 							<div class="col-xl-6">
 								<div class="form-group">
 									<label name="phone"><? echo __( 'Phone', 'forzatheme' ); ?> <span class="txt-grey light p14"><? echo __( '(For receiving code to log in to your account)', 'forzatheme' ); ?></span></label>
@@ -164,13 +166,14 @@ $url          = home_url( '/' );
 									data-sanitize="trim lower">
 								</div>
 							</div><!--End Col 6-->
-
-                            <div class="row">
+                           </div>
+                           <div class="row">
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
-                                        <input type="password" class="form-control" name="password" id="password" placeholder="***********"
-                                               data-validation="required"
+                                        <input  class="form-control" name="pass_confirmation" id="password"  placeholder="***********"
+                                               data-validation="length"
+                                               data-validation-length="min8"
                                                data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
                                     </div>
@@ -178,16 +181,15 @@ $url          = home_url( '/' );
 
                                 <div class="col-xl-6">
                                     <div class="form-group">
-                                        <label for="last_name"><? echo __( 'Confirm', 'forzatheme' ); ?></label>
-                                        <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="***********"
-                                               data-validation="required"
+                                        <label for="last_name"><? echo __( 'Confirm Password', 'forzatheme' ); ?></label>
+                                        <input  class="form-control" name="pass" id="confirm_password" placeholder="***********"
+                                               data-validation="confirmation"
                                                data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
                                     </div>
                                 </div><!--End Col 6-->
                             </div><!--End Row-->
 
-						</div><!--End Row-->
 
 						<div class="chk-container bump-bottom-sm">
 							<span class="chkbox unchecked"></span> <? echo __( 'I accept the terms and conditions. <a href="#" class="txt-grey">Details here.</a>', 'forzatheme' ); ?>

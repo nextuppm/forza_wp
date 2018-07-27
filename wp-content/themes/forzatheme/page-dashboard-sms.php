@@ -3,6 +3,10 @@ get_header();
 $url                = home_url( '/' );
 ?>
 
+	<? if ($_SESSION['crm_client'] == null):?>
+			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
+	<?else:?>
+
 	<section class="bump-bottom-md">
 		<div class="container">
 
@@ -36,11 +40,10 @@ $url                = home_url( '/' );
 
 				</div><!--End Col 9-->
 			</div><!--End Row-->
-			<? endif;?>
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
-
+   <? endif;?>
 
    <? require_once(TEMPLATEPATH . '/inc/need-some-help-block.php'); ?>
    <? require_once(TEMPLATEPATH . '/inc/did-you-know-block.php'); ?>
