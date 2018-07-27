@@ -72,48 +72,48 @@
 
 
 
-function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date, $spec_offer_id) {
-    $client                   = new ApiClient();
-    $loan_id                  = $client->getLoanApplicationRepository()->create(
-		[
-			"ClientID"        => $client_id,
-			"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
-			"ProductID"       => $product_id,
-			"SpecOfferId" => $spec_offer_id,
-			"Parameters"      => [
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
-					"LoanApplicationParameterValue" => $u_loan_amount,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
-					"LoanApplicationParameterValue" => $u_loan_days,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'], //TODO replace next params with received from calculator value
-					"LoanApplicationParameterValue" => "30.12.2018 00:00:00",
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
-					"LoanApplicationParameterValue" => 0.00,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
-					"LoanApplicationParameterValue" => 0.00,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
-					"LoanApplicationParameterValue" => 0.00,
-				],
-				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
-					"LoanApplicationParameterValue" => 0.00,
-				],
+	function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date, $spec_offer_id) {
+		$client                   = new ApiClient();
+		$loan_id                  = $client->getLoanApplicationRepository()->create(
+			[
+				"ClientID"        => $client_id,
+				"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
+				"ProductID"       => $product_id,
+				"SpecOfferId" => $spec_offer_id,
+				"Parameters"      => [
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
+						"LoanApplicationParameterValue" => $amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
+						"LoanApplicationParameterValue" => $days,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'],
+						"LoanApplicationParameterValue" => $due_date, //"30.12.2018 00:00:00"
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
+						"LoanApplicationParameterValue" => $interest_amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
+						"LoanApplicationParameterValue" => $fee_amount,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
+						"LoanApplicationParameterValue" => $amount_to_pay,
+					],
+					[
+						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
+						"LoanApplicationParameterValue" => $apr,
+					],
+				]
 			]
-		]
-	);
-	return $loan_id;
-  }
+		);
+		return $loan_id;
+	}
 
 
     remove_action( 'wp_head', 'feed_links_extra', 3 );
