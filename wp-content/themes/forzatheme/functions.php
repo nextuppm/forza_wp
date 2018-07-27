@@ -79,7 +79,7 @@
 				"ClientID"        => $client_id,
 				"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
 				"ProductID"       => $product_id,
-				"SpecOfferId" => $spec_offer_id,
+				"SpecOfferID" => $spec_offer_id,
 				"Parameters"      => [
 					[
 						"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],

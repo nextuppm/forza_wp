@@ -126,30 +126,7 @@ $url                = home_url( '/' );
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
-<span id="clickme">clickme</span>
-<script>
-		function TestAction() {
-			   $.ajax({
-					type 		  : 'POST',
-					url 		  : ajaxdata.url,
-					data : {
-						action         : 'test_action',
-						mytestdata     : '555'
-					},
-					dataType 	  : 'json',
-				})
-				  .done(function(data) {
-					 console.log(data);
-					})
-				  .fail(function(data) {
-						// console.log(data);
-					});
-		}
 
-$( "#clickme" ).click(function() {
-  TestAction();
-});
-</script>
    <? require_once(TEMPLATEPATH . '/inc/need-some-help-block.php'); ?>
    <? require_once(TEMPLATEPATH . '/inc/did-you-know-block.php'); ?>
 <?php get_footer();?>

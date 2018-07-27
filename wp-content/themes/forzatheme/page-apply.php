@@ -24,7 +24,7 @@ $user_confirm_password = $_POST["pass"];
 
 
 $existingClients = $client->getClientRepository()->search([
-	'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['Jmbg'],
+	'DocTypeID' => Constants::CONSTANTS['RegDocumentType']['Jmbg'], //TODO [Calm] Использовать в проверке еще и телефон. Алгоритм у Заура.
 	'DocNumber' => $u_jmbg
 ]);
 
@@ -75,6 +75,35 @@ $max_mkd      = get_field('max_mkd',      'option');
 $min_days     = get_field('min_days',     'option');
 $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
+
+if(isset($_SESSION['crm_client']) && !empty($_SESSION['crm_client']->ClientID)){
+    //TODO [Calm] избавиться от копирования
+	$u_loan_amount          = (int)str_replace(',', '', $_POST["loan_amount"]);
+	$u_loan_days            = (int)$_POST["loan_days"];
+	$u_loan_product_id      = $_POST["ProductId"];
+	$u_loan_spec_offer_id   = $_POST["SpecOfferId"];
+	$u_loan_amount_to_pay   = $_POST["AmountToPay"];
+	$u_loan_apr             = $_POST["Apr"];
+	$u_loan_fee_amount      = $_POST["FeeAmount"];
+	$u_loan_interest_amount = $_POST["InterestAmount"];
+	$u_loan_due_date        = $_POST["DateDue"];
+
+	$loan_id = CreateLoanApplication(
+		$_SESSION['crm_client']->ClientID,
+		$u_loan_product_id,
+		$u_loan_amount,
+		$u_loan_days,
+		$u_loan_amount_to_pay,
+		$u_loan_apr,
+		$u_loan_fee_amount,
+		$u_loan_interest_amount,
+		$u_loan_due_date,
+		$u_loan_spec_offer_id
+	);
+
+	echo '<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_id.'");</script>';
+}
+
 ?>
 
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
@@ -195,7 +224,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="first_name"><? echo __( 'Password', 'forzatheme' ); ?></label>
-                                        <input  class="form-control" name="pass_confirmation" id="password"  placeholder="***********"
+                                        <input type="password" class="form-control" name="pass_confirmation" id="password"  placeholder="***********"
                                                data-validation="length"
                                                data-validation-length="min8"
                                                data-validation-error-msg="<? echo __( 'Please enter password', 'forzatheme' ); ?>"
@@ -206,7 +235,7 @@ $url          = home_url( '/' );
                                 <div class="col-xl-6">
                                     <div class="form-group">
                                         <label for="last_name"><? echo __( 'Confirm Password', 'forzatheme' ); ?></label>
-                                        <input  class="form-control" name="pass" id="confirm_password" placeholder="***********"
+                                        <input type="password" class="form-control" name="pass" id="confirm_password" placeholder="***********"
                                                data-validation="confirmation"
                                                data-validation-error-msg="<? echo __( 'Please confirm the password', 'forzatheme' ); ?>"
                                                data-sanitize="trim">
