@@ -27,19 +27,19 @@
 							</div>
 							<div class="d-flex">
 								<div>
-									<s class="grey p14 strike"><? echo __( 'Interest', 'forzatheme' ); ?> 10%</s>
+									<span class="grey p14 strike"><? echo __( 'Interest', 'forzatheme' ); ?> 10%</span>
 								</div>
 								<div class="ml-auto text-right">
-									<s class="grey p14 strike"><span class="loan-interest-display"><? if( isset( $_POST['InterestAmount']) ):?>  <? echo $_POST['InterestAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
+									<span class="grey p14 strike"><span class="loan-interest-display"><? if( isset( $_POST['InterestAmount']) ):?>  <? echo $_POST['InterestAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 
 							<div class="d-flex">
 								<div>
-									<s class="grey p14 strike">Fee</s>
+									<span class="grey p14 strike">Fee</span>
 								</div>
 								<div class="ml-auto text-right">
-									<s class="grey p14 strike"><span class="loan-fee-display"><? if( isset( $_POST['FeeAmount']) ):?>  <? echo $_POST['FeeAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></s>
+									<span class="grey p14 strike"><span class="loan-fee-display"><? if( isset( $_POST['FeeAmount']) ):?>  <? echo $_POST['FeeAmount']; ?> <? else: ?> 0 <? endif; ?></span> <? echo __( 'MKD', 'forzatheme' ); ?></span>
 								</div>
 							</div>
 
