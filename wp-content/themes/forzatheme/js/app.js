@@ -1,5 +1,6 @@
 $.validate({
-	modules :  'sanitize',
+	//modules :  'sanitize',
+	modules : 'security',
 	ignore: [],
 });
 

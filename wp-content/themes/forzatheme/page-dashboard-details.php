@@ -3,16 +3,14 @@ get_header();
 $url                = home_url( '/' );
 ?>
 
+	<? if ($_SESSION['crm_client'] == null):?>
+			<? echo'<script type="text/javascript"> location.replace("'.$url.'log-in/");</script>';?>
+	<?else:?>
+<pre>
+	<? print_r($_SESSION['crm_client']);?>
+	</pre>
 	<section class="bump-bottom-md">
 		<div class="container">
-			<? $client_id = get_client_id($userid);?>
-			<? if ($client_id == false):?>
-					клиент НЕ существует или не авторизован
-			<?else:?>
-			<? $info = $client->getClientRepository()->getById($client_id);?>
-			<pre>
-			 <? print_r($info);?>
-			</pre>
 			<h1 class="extra-bold bump-top-md bump-bottom-md"><? echo __('Your Details', 'forzatheme' ); ?></h1>
 
 			<div class="row">
@@ -70,9 +68,10 @@ $url                = home_url( '/' );
 
 			</div><!--End Row-->
 
-          <? endif;?>
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
+
+	<? endif;?>
 
    <? require_once(TEMPLATEPATH . '/inc/need-some-help-block.php'); ?>
    <? require_once(TEMPLATEPATH . '/inc/did-you-know-block.php'); ?>
