@@ -54,15 +54,7 @@ else{
 				$u_loan_due_date
         );
 
-		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id); //TODO убрать, и передать в success id заявки
-
-        echo'<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_application->AppNumber.'");</script>';
-
-		//FIXME заменить на адекватный редирект. Можно засунуть в url loanId, а на success странице по нему достать инфу через api.
-		//echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
-				//"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
-				//"</form>".
-				//"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
+        echo '<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_id.'");</script>';
 	}
 }
 

@@ -7,9 +7,13 @@ $min_days     = get_field('min_days',     'option');
 $max_days     = get_field('max_days',     'option');
 $url          = home_url( '/' );
 
-echo '<pre>';
-print_r($_SESSION);
-echo '</pre>';
+if(isset($_GET["loanId"])){
+	$loan_application = $client->getLoanApplicationRepository()->getById($_GET["loanId"]);
+}
+else{
+    die("Error while loan application creating");
+}
+
 ?>
 ?>
     <? require_once(TEMPLATEPATH . '/inc/breadcrumbs.php'); ?>
@@ -38,7 +42,7 @@ echo '</pre>';
 					</div><!--End Row-->
 
 					<p> <? echo __( 'Thank you for filling out your application, it is already being processed and we will contact you in 15 minutes with further information.', 'forzatheme' ); ?></p>
-					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> <?= isset($_GET["loanId"]) ? $_GET["loanId"]: 0 ?></p>
+					<p><strong> <? echo __( 'Your Loan Ref is', 'forzatheme' ); ?>:</strong> <?= $loan_application->AppNumber ?></p>
 					<p><? echo __( 'Thank you for choosing Forza!', 'forzatheme' ); ?></p>
 				</div><!--End Col 9-->
 
