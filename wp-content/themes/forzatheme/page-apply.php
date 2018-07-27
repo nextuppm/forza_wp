@@ -2,9 +2,17 @@
 <? $client = new ApiClient(); ?>
 <? if (isset($_POST['action'])):?>
 <?
-$url                   = home_url( '/' );
-$u_loan_amount         = (int)str_replace(',', '', $_POST["loan_amount"]);
-$u_loan_days           = (int)$_POST["loan_days"];
+$url = home_url( '/' );
+$u_loan_amount          = (int)str_replace(',', '', $_POST["loan_amount"]);
+$u_loan_days            = (int)$_POST["loan_days"];
+$u_loan_product_id      = $_POST["ProductId"];
+$u_loan_spec_offer_id   = $_POST["SpecOfferId"]; //Куда это?
+$u_loan_amount_to_pay   = $_POST["AmountToPay"];
+$u_loan_apr             = $_POST["Apr"];
+$u_loan_fee_amount      = $_POST["FeeAmount"];
+$u_loan_interest_amount = $_POST["InterestAmount"];
+$u_loan_due_date        = $_POST["DateDue"];
+
 $u_first_name          = $_POST["first_name"];
 $u_last_name           = $_POST["last_name"];
 $u_jmbg                = $_POST["jmbg"];
@@ -34,16 +42,19 @@ else{
 		global $wpdb;
 		$wpdb->query($wpdb->prepare("INSERT INTO clients (email, phone, password, client_id) VALUES (%s, %s, %s, %s)", $u_email, $u_phone, $password_hash, $client_id));
 
-		$loan_id = CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days);
-		$loan_application = $client->getLoanApplicationRepository()->getById($loan_id);
+		$loan_id = CreateLoanApplication(
+		        $client_id,
+				$u_loan_product_id,
+                $u_loan_amount,
+                $u_loan_days,
+				$u_loan_amount_to_pay,
+				$u_loan_apr,
+				$u_loan_fee_amount,
+				$u_loan_interest_amount,
+				$u_loan_due_date
+        );
 
-        echo'<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_application->AppNumber.'");</script>';
-
-		//FIXME заменить на адекватный редирект. Можно засунуть в url loanId, а на success странице по нему достать инфу через api.
-		//echo 	"<form id=\"redirect-to-success\" action=\"/success\" method=\"post\">".
-				//"<input type=\"hidden\" name=\"loan_application_number\" value=\"{$loan_application->AppNumber}\">".
-				//"</form>".
-				//"<script type=\"text/javascript\">document.getElementById('redirect-to-success').submit();</script>";
+        echo '<script type="text/javascript"> location.replace("'.$url.'success/?loanId='.$loan_id.'");</script>';
 	}
 }
 
@@ -98,17 +109,18 @@ $url          = home_url( '/' );
                     <input  name="loan_amount" id="loan_amount" type="hidden" value="<? echo $_POST['loan_amount']; ?>" >
                     <input  name="loan_days" id="loan_days" type="hidden" value="<? echo $_POST['loan_days']; ?>" >
                     
-                    <input name="ProductId" id="ProductId" val="<? echo $_POST['ProductId']; ?>" type="hidden">
-                    <input name="SpecOfferId" id="SpecOfferId" val="<? echo $_POST['SpecOfferId']; ?>" type="hidden">
-                    <input name="AmountToPay" id="AmountToPay" val="<? echo $_POST['AmountToPay']; ?>" type="hidden">
-                    <input name="Apr" id="Apr" val="<? echo $_POST['Apr']; ?>" type="hidden">
-                    <input name="FeeAmount" id="FeeAmount" val="<? echo $_POST['FeeAmount']; ?>" type="hidden">
-                    <input name="InterestAmount" id="InterestAmount" val="<? echo $_POST['InterestAmount']; ?>" type="hidden">
-                    <input name="RepaymentDate" id="RepaymentDate" val="<? echo $_POST['RepaymentDate']; ?>" type="hidden">
-                    <input name="RepaymentDay" id="RepaymentDay" val="<? echo $_POST['RepaymentDay']; ?>" type="hidden">
-                    <input name="RepaymentMonth" id="RepaymentMonth" val="<? echo $_POST['RepaymentMonth']; ?>" type="hidden">
-                    <input name="Amount" id="Amount" val="<? echo $_POST['Amount']; ?>" type="hidden">
-                    <input name="Term" id="Term" val="<? echo $_POST['Term']; ?>" type="hidden">
+                    <input name="ProductId" id="ProductId" value="<? echo $_POST['ProductId']; ?>" type="hidden">
+                    <input name="SpecOfferId" id="SpecOfferId" value="<? echo $_POST['SpecOfferId']; ?>" type="hidden">
+                    <input name="AmountToPay" id="AmountToPay" value="<? echo $_POST['AmountToPay']; ?>" type="hidden">
+                    <input name="Apr" id="Apr" value="<? echo $_POST['Apr']; ?>" type="hidden">
+                    <input name="FeeAmount" id="FeeAmount" value="<? echo $_POST['FeeAmount']; ?>" type="hidden">
+                    <input name="InterestAmount" id="InterestAmount" value="<? echo $_POST['InterestAmount']; ?>" type="hidden">
+                    <input name="RepaymentDate" id="RepaymentDate" value="<? echo $_POST['RepaymentDate']; ?>" type="hidden">
+                    <input name="RepaymentDay" id="RepaymentDay" value="<? echo $_POST['RepaymentDay']; ?>" type="hidden">
+                    <input name="RepaymentMonth" id="RepaymentMonth" value="<? echo $_POST['RepaymentMonth']; ?>" type="hidden">
+                    <input name="Amount" id="Amount" value="<? echo $_POST['Amount']; ?>" type="hidden">
+                    <input name="Term" id="Term" value="<? echo $_POST['Term']; ?>" type="hidden">
+                    <input name="DateDue" id="DateDue" value="<? echo $_POST['DateDue']; ?>" type="hidden">
 
 						<div class="row">
 							<div class="col-xl-6">

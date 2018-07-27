@@ -1,6 +1,7 @@
 <?  /* Template Name: page-dashboard.php */
 get_header();
 $url                = home_url( '/' );
+    //TODO удалить это. Перенесено в page-login.php
 	if (isset($_POST['login'])){
 		$login = $_POST['login'];
 		$password = $_POST['password'];

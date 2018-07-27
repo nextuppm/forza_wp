@@ -72,42 +72,42 @@
 
 
 
- function CreateLoanApplication($client_id, $u_loan_amount, $u_loan_days) {
+ function CreateLoanApplication($client_id, $product_id, $amount, $days, $amount_to_pay, $apr, $fee_amount, $interest_amount, $due_date) {
     $client                   = new ApiClient();
     $loan_id                  = $client->getLoanApplicationRepository()->create(
 		[
 			"ClientID"        => $client_id,
 			//"SigningMethodID" => Constants::CONSTANTS['SigningMethod']['PersonalSigning'], //наверное, это тут не нужно.
 			"LoanApplicationStatusID" => Constants::CONSTANTS['ApplicationStatus']['PreCreated'],
-			"ProductID"       => "b9bbad91-3e0c-413d-bdd2-c60e2da85c25", //TODO replace with received from calculator value
+			"ProductID"       => $product_id,
 			"Parameters"      => [
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Amount'],
-					"LoanApplicationParameterValue" => $u_loan_amount,
+					"LoanApplicationParameterValue" => $amount,
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['NumberOfDays'],
-					"LoanApplicationParameterValue" => $u_loan_days,
+					"LoanApplicationParameterValue" => $days,
 				],
 				[
-					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'], //TODO replace next params with received from calculator value
-					"LoanApplicationParameterValue" => "30.12.2018 00:00:00",
+					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['DueDate'],
+					"LoanApplicationParameterValue" => $due_date, //"30.12.2018 00:00:00"
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['InterestAmount'],
-					"LoanApplicationParameterValue" => 0.00,
+					"LoanApplicationParameterValue" => $interest_amount,
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['FeeAmount'],
-					"LoanApplicationParameterValue" => 0.00,
+					"LoanApplicationParameterValue" => $fee_amount,
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['AmountToPay'],
-					"LoanApplicationParameterValue" => 0.00,
+					"LoanApplicationParameterValue" => $amount_to_pay,
 				],
 				[
 					"LoanApplicationParameterID" => Constants::CONSTANTS['LoanApplicationParameter']['Apr'],
-					"LoanApplicationParameterValue" => 0.00,
+					"LoanApplicationParameterValue" => $apr,
 				],
 			]
 		]
