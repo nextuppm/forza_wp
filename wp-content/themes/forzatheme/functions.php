@@ -7,6 +7,7 @@
 	require_once(ABSPATH . '/api-client/ApiClient/ApiClient.php' );
 	require_once(ABSPATH . '/api-client/ApiClient/data/Constants.php' );
 
+
     require_once(TEMPLATEPATH . '/inc/user-api-fields.php');
 
 	function clientinfo($userid) {

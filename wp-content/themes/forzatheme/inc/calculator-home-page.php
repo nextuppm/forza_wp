@@ -33,7 +33,7 @@ $url          = home_url( '/' );
 									</div>
 									<div class="ml-auto text-right ">
 										<span class="slider-value">
-											<input type="tel" class="slider-value-amount mkd" name="loan_amount" id="loanamount_text" value="200">
+											<input type="tel" class="slider-value-amount mkd" name="loan_amount" id="loanamount_text" value="0">
 											<span class="slider-value-unit"><? echo __('MKD', 'forzatheme' ); ?></span>
 										</span><!--End Slider Value-->
 									</div>
@@ -59,7 +59,7 @@ $url          = home_url( '/' );
 									</div>
 									<div class="ml-auto text-right">
 										<span class="slider-value">
-												<input type="tel" class="slider-value-amount" name="loan_days" id="loanterm_text" value="20">
+												<input type="tel" class="slider-value-amount" name="loan_days" id="loanterm_text" value="0">
 											<span class="slider-value-unit"><? echo __('Days', 'forzatheme' ); ?></span>
 										</span><!--End Slider Value-->
 									</div>
@@ -107,7 +107,7 @@ $url          = home_url( '/' );
 											<span class="p14 bold"><? echo __('Repayment Date', 'forzatheme' ); ?></span>
 										</div>
 										<div class="ml-auto text-right">
-											<span class="loan-day-display slider-value-amount">30</span> <span class="slider-value-unit"><span class="loan-month-display"><? echo __('Apr', 'forzatheme' ); ?></span>
+											<span class="loan-day-display slider-value-amount"></span> <span class="slider-value-unit"><span class="loan-month-display"></span>
 										</div>
 									</div><!--End Row-->
 									<div class="d-flex">
@@ -115,7 +115,7 @@ $url          = home_url( '/' );
 											<span class="p14 bold"><? echo __('You will repay', 'forzatheme' ); ?></span>
 										</div>
 										<div class="ml-auto text-right">
-											<span class="loan-amount-display slider-value-amount" id="AmountToPayspan">190</span> <span class="slider-value-unit"><? echo __('MKD', 'forzatheme' ); ?></span>
+											<span class="loan-amount-display slider-value-amount" id="AmountToPayspan">0</span> <span class="slider-value-unit"><? echo __('MKD', 'forzatheme' ); ?></span>
 										</div>
 									</div><!--End Row-->
 								</div><!--End Calculator Box Details-->
