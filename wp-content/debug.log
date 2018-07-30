@@ -1744,3 +1744,11 @@ Stack trace:
 [27-Jul-2018 14:00:33 UTC] PHP   7. wpdb->__construct() /var/www/html/forza/wp-includes/load.php:404
 [27-Jul-2018 14:00:33 UTC] PHP   8. wpdb->db_connect() /var/www/html/forza/wp-includes/wp-db.php:592
 [27-Jul-2018 14:00:33 UTC] PHP   9. mysqli_real_connect() /var/www/html/forza/wp-includes/wp-db.php:1531
+[30-Jul-2018 06:48:14 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; ProductManager has a deprecated constructor in /var/www/html/forza/wp-content/themes/forzatheme/includes/ProductManager.php on line 2
+[30-Jul-2018 06:48:14 UTC] PHP Stack trace:
+[30-Jul-2018 06:48:14 UTC] PHP   1. {main}() /var/www/html/forza/wp-admin/admin-ajax.php:0
+[30-Jul-2018 06:48:14 UTC] PHP   2. do_action() /var/www/html/forza/wp-admin/admin-ajax.php:114
+[30-Jul-2018 06:48:14 UTC] PHP   3. WP_Hook->do_action() /var/www/html/forza/wp-includes/plugin.php:453
+[30-Jul-2018 06:48:14 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/forza/wp-includes/class-wp-hook.php:310
+[30-Jul-2018 06:48:14 UTC] PHP   5. get_bulk_ajax() /var/www/html/forza/wp-includes/class-wp-hook.php:286
+[30-Jul-2018 06:48:14 UTC] PHP   6. BulkHelper::GetBulkForUser() /var/www/html/forza/wp-content/themes/forzatheme/functions.php:194

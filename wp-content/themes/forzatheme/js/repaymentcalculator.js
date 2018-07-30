@@ -446,7 +446,7 @@ function changeValues(dayIndex, amountIndex, amount) {
     
     var date_str = Loan[1];
     var date_arr = date_str.split('-')
-    var dueDate = new Date(date_arr[0],date_arr[1],date_arr[2]);
+    var dueDate = new Date(date_arr[0],date_arr[1]-1,date_arr[2]);
     var repayment_date = dueDate.getDate() + " ";  
     repayment_date += getMonth(dueDate.getMonth());  
     $('#DateDue').val(dueDate.format("dd.mm.yyyy hh:MM:ss"));
