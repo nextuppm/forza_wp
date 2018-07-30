@@ -3,9 +3,9 @@
 		load_theme_textdomain('forzatheme', get_template_directory() . '/languages');
 	}
 //TODO remove '/forza'
-	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/vendor/autoload.php' );
-	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/ApiClient.php' );
-	require_once( $_SERVER['DOCUMENT_ROOT'] . '/api-client/ApiClient/data/Constants.php' );
+	require_once(ABSPATH . '/api-client/ApiClient/vendor/autoload.php' );
+	require_once(ABSPATH . '/api-client/ApiClient/ApiClient.php' );
+	require_once(ABSPATH . '/api-client/ApiClient/data/Constants.php' );
 
     require_once(TEMPLATEPATH . '/inc/user-api-fields.php');
 

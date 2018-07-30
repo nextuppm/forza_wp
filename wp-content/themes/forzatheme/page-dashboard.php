@@ -126,7 +126,6 @@ $url                = home_url( '/' );
 		</div><!--End Container-->
 	</section><!--Application Form Step 2-->
 
-
    <? require_once(TEMPLATEPATH . '/inc/need-some-help-block.php'); ?>
    <? require_once(TEMPLATEPATH . '/inc/did-you-know-block.php'); ?>
 <?php get_footer();?>
